@@ -1,0 +1,41 @@
+[
+  {
+    "id": "cv",
+    "icon": "file",
+    "file": "",
+    "title": {
+      "fr": "Modèle de CV international",
+      "en": "International CV template"
+    },
+    "text": {
+      "fr": "Une mise en page claire, adaptée aux candidatures de bourses et de stages.",
+      "en": "A clean layout suited to scholarship and internship applications."
+    }
+  },
+  {
+    "id": "checklist",
+    "icon": "check",
+    "file": "",
+    "title": {
+      "fr": "Checklist de candidature",
+      "en": "Application checklist"
+    },
+    "text": {
+      "fr": "Toutes les étapes et tous les documents, de trois mois avant à l'envoi.",
+      "en": "Every step and document, from three months out to submission."
+    }
+  },
+  {
+    "id": "letter",
+    "icon": "pen",
+    "file": "",
+    "title": {
+      "fr": "Guide de la lettre de motivation",
+      "en": "Motivation letter guide"
+    },
+    "text": {
+      "fr": "Structure, exemples de phrases et erreurs à éviter.",
+      "en": "Structure, sample phrases and mistakes to avoid."
+    }
+  }
+]

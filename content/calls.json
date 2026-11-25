@@ -1,0 +1,485 @@
+[
+  {
+    "id": "bourse-master-europe",
+    "type": "scholarship",
+    "region": "europe",
+    "levels": [
+      "master"
+    ],
+    "deadline": "2026-12-15",
+    "published": "2026-11-20",
+    "featured": true,
+    "link": "",
+    "title": {
+      "fr": "Bourse de Master entièrement financée en Europe",
+      "en": "Fully funded Master's scholarship in Europe"
+    },
+    "org": {
+      "fr": "Consortium d'universités européennes",
+      "en": "European university consortium"
+    },
+    "funding": {
+      "fr": "Entièrement financée",
+      "en": "Fully funded"
+    },
+    "summary": {
+      "fr": "Un programme de Master de deux ans dans plusieurs pays européens, avec frais de scolarité, allocation mensuelle et billets d'avion pris en charge.",
+      "en": "A two-year Master's programme across several European countries, covering tuition, a monthly allowance and flights."
+    },
+    "eligibility": {
+      "fr": [
+        "Être titulaire d'une Licence (ou en dernière année)",
+        "Bon niveau d'anglais (IELTS, TOEFL ou équivalent)",
+        "Ouvert aux candidats de toutes nationalités",
+        "Ne pas avoir déjà bénéficié de cette bourse"
+      ],
+      "en": [
+        "Hold a Bachelor's degree (or be in your final year)",
+        "Good level of English (IELTS, TOEFL or equivalent)",
+        "Open to candidates of all nationalities",
+        "Not a previous recipient of this scholarship"
+      ]
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité",
+        "Allocation mensuelle de subsistance",
+        "Frais de voyage et d'installation",
+        "Assurance santé"
+      ],
+      "en": [
+        "Tuition fees",
+        "Monthly living allowance",
+        "Travel and installation costs",
+        "Health insurance"
+      ]
+    }
+  },
+  {
+    "id": "bourse-excellence-canada",
+    "type": "scholarship",
+    "region": "canada",
+    "levels": [
+      "bachelor"
+    ],
+    "deadline": "2027-01-10",
+    "published": "2026-11-18",
+    "featured": true,
+    "link": "",
+    "title": {
+      "fr": "Bourse d'excellence pour études de premier cycle au Canada",
+      "en": "Undergraduate excellence scholarship in Canada"
+    },
+    "org": {
+      "fr": "Universités canadiennes partenaires",
+      "en": "Partner Canadian universities"
+    },
+    "funding": {
+      "fr": "Partiel à complet",
+      "en": "Partial to full"
+    },
+    "summary": {
+      "fr": "Des bourses d'admission pour étudiants internationaux qui démontrent un excellent dossier scolaire et un engagement dans leur communauté.",
+      "en": "Entrance scholarships for international students with an outstanding academic record and community involvement."
+    },
+    "eligibility": {
+      "fr": [
+        "Être en dernière année de lycée ou équivalent",
+        "Excellents résultats scolaires",
+        "Expérience de leadership ou de bénévolat",
+        "Lettre de recommandation d'un enseignant"
+      ],
+      "en": [
+        "Be in your final year of secondary school or equivalent",
+        "Excellent academic results",
+        "Leadership or volunteering experience",
+        "Recommendation letter from a teacher"
+      ]
+    },
+    "benefits": {
+      "fr": [
+        "Réduction ou exonération des frais de scolarité",
+        "Renouvelable chaque année selon les résultats",
+        "Accompagnement à l'arrivée"
+      ],
+      "en": [
+        "Reduced or waived tuition",
+        "Renewable each year based on results",
+        "Arrival support"
+      ]
+    }
+  },
+  {
+    "id": "stage-developpement-durable",
+    "type": "internship",
+    "region": "global",
+    "levels": [
+      "bachelor",
+      "master"
+    ],
+    "deadline": "2027-01-31",
+    "published": "2026-11-22",
+    "featured": true,
+    "link": "",
+    "title": {
+      "fr": "Stage international en développement durable",
+      "en": "International internship in sustainable development"
+    },
+    "org": {
+      "fr": "Organisation internationale",
+      "en": "International organisation"
+    },
+    "funding": {
+      "fr": "Rémunéré",
+      "en": "Paid"
+    },
+    "summary": {
+      "fr": "Six mois au sein d'une équipe travaillant sur le climat, l'énergie et le développement local, en présentiel ou à distance.",
+      "en": "Six months with a team working on climate, energy and local development, on site or remote."
+    },
+    "eligibility": {
+      "fr": [
+        "Être inscrit en Licence ou Master, ou diplômé depuis moins d'un an",
+        "Intérêt démontré pour le développement durable",
+        "Maîtrise de l'anglais ou du français"
+      ],
+      "en": [
+        "Be enrolled in a Bachelor's or Master's, or have graduated within the last year",
+        "Demonstrated interest in sustainable development",
+        "Fluent in English or French"
+      ]
+    },
+    "benefits": {
+      "fr": [
+        "Allocation mensuelle",
+        "Mentorat par des professionnels",
+        "Certificat de stage"
+      ],
+      "en": [
+        "Monthly stipend",
+        "Mentoring by professionals",
+        "Internship certificate"
+      ]
+    }
+  },
+  {
+    "id": "bourse-doctorale-asie",
+    "type": "scholarship",
+    "region": "asia",
+    "levels": [
+      "phd"
+    ],
+    "deadline": "2026-12-05",
+    "published": "2026-11-15",
+    "featured": true,
+    "link": "",
+    "title": {
+      "fr": "Bourse doctorale en sciences et technologies en Asie",
+      "en": "PhD scholarship in science and technology in Asia"
+    },
+    "org": {
+      "fr": "Programme gouvernemental de bourses",
+      "en": "Government scholarship programme"
+    },
+    "funding": {
+      "fr": "Entièrement financée",
+      "en": "Fully funded"
+    },
+    "summary": {
+      "fr": "Trois à quatre ans de recherche doctorale dans un laboratoire reconnu, avec allocation mensuelle et cours de langue la première année.",
+      "en": "Three to four years of doctoral research in a recognised lab, with a monthly allowance and language classes in the first year."
+    },
+    "eligibility": {
+      "fr": [
+        "Être titulaire d'un Master dans un domaine scientifique",
+        "Proposition de recherche de 2 à 3 pages",
+        "Moins de 35 ans à la date limite"
+      ],
+      "en": [
+        "Hold a Master's degree in a science field",
+        "2–3 page research proposal",
+        "Under 35 at the deadline"
+      ]
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité",
+        "Allocation mensuelle",
+        "Logement sur le campus",
+        "Cours de langue"
+      ],
+      "en": [
+        "Tuition fees",
+        "Monthly allowance",
+        "On-campus housing",
+        "Language classes"
+      ]
+    }
+  },
+  {
+    "id": "conference-leadership-jeunesse",
+    "type": "conference",
+    "region": "global",
+    "levels": [
+      "bachelor",
+      "master",
+      "phd"
+    ],
+    "deadline": "2027-02-20",
+    "published": "2026-11-12",
+    "featured": false,
+    "link": "",
+    "title": {
+      "fr": "Conférence mondiale de la jeunesse sur le leadership",
+      "en": "Global youth leadership conference"
+    },
+    "org": {
+      "fr": "Réseau international de jeunes leaders",
+      "en": "International young leaders network"
+    },
+    "funding": {
+      "fr": "Bourses de voyage disponibles",
+      "en": "Travel grants available"
+    },
+    "summary": {
+      "fr": "Quatre jours d'ateliers, de panels et de rencontres avec des jeunes engagés du monde entier autour de l'innovation sociale.",
+      "en": "Four days of workshops, panels and networking with engaged young people from around the world, focused on social innovation."
+    },
+    "eligibility": {
+      "fr": [
+        "Avoir entre 18 et 30 ans",
+        "Être impliqué dans un projet ou une association",
+        "Essai de motivation de 500 mots"
+      ],
+      "en": [
+        "Be aged 18 to 30",
+        "Be involved in a project or association",
+        "500-word motivation essay"
+      ]
+    },
+    "benefits": {
+      "fr": [
+        "Participation gratuite",
+        "Bourses de voyage pour une partie des participants",
+        "Certificat de participation"
+      ],
+      "en": [
+        "Free participation",
+        "Travel grants for some participants",
+        "Certificate of participation"
+      ]
+    }
+  },
+  {
+    "id": "formation-data-ia",
+    "type": "training",
+    "region": "global",
+    "levels": [
+      "bachelor",
+      "master",
+      "phd"
+    ],
+    "deadline": "2027-03-01",
+    "published": "2026-11-24",
+    "featured": false,
+    "link": "",
+    "title": {
+      "fr": "Formation en ligne gratuite : data et intelligence artificielle",
+      "en": "Free online training: data and artificial intelligence"
+    },
+    "org": {
+      "fr": "Plateforme d'apprentissage en ligne",
+      "en": "Online learning platform"
+    },
+    "funding": {
+      "fr": "Gratuite",
+      "en": "Free"
+    },
+    "summary": {
+      "fr": "Un parcours de 12 semaines pour apprendre l'analyse de données et les bases de l'IA, à votre rythme, avec certificat à la clé.",
+      "en": "A 12-week self-paced track to learn data analysis and AI fundamentals, with a certificate on completion."
+    },
+    "eligibility": {
+      "fr": [
+        "Aucun prérequis technique",
+        "Disposer d'un ordinateur et d'une connexion internet",
+        "Environ 5 heures par semaine"
+      ],
+      "en": [
+        "No technical prerequisites",
+        "Access to a computer and internet connection",
+        "About 5 hours per week"
+      ]
+    },
+    "benefits": {
+      "fr": [
+        "Accès gratuit à tous les modules",
+        "Projets pratiques",
+        "Certificat numérique"
+      ],
+      "en": [
+        "Free access to all modules",
+        "Hands-on projects",
+        "Digital certificate"
+      ]
+    }
+  },
+  {
+    "id": "appel-innovation-verte",
+    "type": "call",
+    "region": "caribbean",
+    "levels": [
+      "bachelor",
+      "master"
+    ],
+    "deadline": "2027-01-20",
+    "published": "2026-11-10",
+    "featured": false,
+    "link": "",
+    "title": {
+      "fr": "Appel à projets : innovation verte jeunesse",
+      "en": "Call for projects: youth green innovation"
+    },
+    "org": {
+      "fr": "Fonds régional pour l'environnement",
+      "en": "Regional environment fund"
+    },
+    "funding": {
+      "fr": "Subvention de démarrage",
+      "en": "Seed grant"
+    },
+    "summary": {
+      "fr": "Un financement et un accompagnement pour les jeunes porteurs de projets qui répondent aux défis climatiques de leur territoire.",
+      "en": "Funding and support for young project leaders tackling climate challenges in their region."
+    },
+    "eligibility": {
+      "fr": [
+        "Avoir entre 18 et 35 ans",
+        "Projet à impact environnemental mesurable",
+        "Équipe de 1 à 4 personnes"
+      ],
+      "en": [
+        "Be aged 18 to 35",
+        "Project with measurable environmental impact",
+        "Team of 1 to 4 people"
+      ]
+    },
+    "benefits": {
+      "fr": [
+        "Subvention de démarrage",
+        "Mentorat de 6 mois",
+        "Visibilité auprès de partenaires"
+      ],
+      "en": [
+        "Seed grant",
+        "6-month mentoring",
+        "Visibility with partners"
+      ]
+    }
+  },
+  {
+    "id": "stage-recherche-ete-canada",
+    "type": "internship",
+    "region": "canada",
+    "levels": [
+      "bachelor",
+      "master"
+    ],
+    "deadline": "2027-02-05",
+    "published": "2026-11-08",
+    "featured": false,
+    "link": "",
+    "title": {
+      "fr": "Stage de recherche d'été au Canada",
+      "en": "Summer research internship in Canada"
+    },
+    "org": {
+      "fr": "Programme de recherche universitaire",
+      "en": "University research programme"
+    },
+    "funding": {
+      "fr": "Bourse de stage",
+      "en": "Internship stipend"
+    },
+    "summary": {
+      "fr": "Douze semaines dans un laboratoire universitaire canadien, encadré par un professeur, dans des domaines variés.",
+      "en": "Twelve weeks in a Canadian university lab, supervised by a professor, across a range of fields."
+    },
+    "eligibility": {
+      "fr": [
+        "Être inscrit en Licence (2e année minimum) ou en Master",
+        "Bon dossier académique",
+        "Anglais ou français courant"
+      ],
+      "en": [
+        "Be enrolled in a Bachelor's (2nd year or above) or Master's",
+        "Strong academic record",
+        "Fluent English or French"
+      ]
+    },
+    "benefits": {
+      "fr": [
+        "Bourse couvrant les frais de séjour",
+        "Billet d'avion",
+        "Expérience de recherche internationale"
+      ],
+      "en": [
+        "Stipend covering living costs",
+        "Flight",
+        "International research experience"
+      ]
+    }
+  },
+  {
+    "id": "echange-semestre-asie",
+    "type": "scholarship",
+    "region": "asia",
+    "levels": [
+      "bachelor"
+    ],
+    "deadline": "2026-12-20",
+    "published": "2026-11-05",
+    "featured": false,
+    "link": "",
+    "title": {
+      "fr": "Bourse d'échange d'un semestre en Asie",
+      "en": "One-semester exchange scholarship in Asia"
+    },
+    "org": {
+      "fr": "Programme d'échanges universitaires",
+      "en": "University exchange programme"
+    },
+    "funding": {
+      "fr": "Partiellement financée",
+      "en": "Partially funded"
+    },
+    "summary": {
+      "fr": "Passez un semestre dans une université partenaire en Asie et validez vos crédits dans votre établissement d'origine.",
+      "en": "Spend a semester at a partner university in Asia and transfer the credits back to your home institution."
+    },
+    "eligibility": {
+      "fr": [
+        "Être inscrit en Licence dans un établissement partenaire",
+        "Moyenne générale satisfaisante",
+        "Accord de votre établissement"
+      ],
+      "en": [
+        "Be enrolled in a Bachelor's at a partner institution",
+        "Satisfactory grade average",
+        "Approval from your institution"
+      ]
+    },
+    "benefits": {
+      "fr": [
+        "Exonération des frais de scolarité",
+        "Allocation mensuelle",
+        "Aide au logement"
+      ],
+      "en": [
+        "Tuition waiver",
+        "Monthly allowance",
+        "Housing support"
+      ]
+    }
+  }
+]

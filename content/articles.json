@@ -1,0 +1,158 @@
+[
+  {
+    "id": "methode-blocs-de-temps",
+    "category": "productivity",
+    "minutes": 5,
+    "published": "2026-11-23",
+    "title": {
+      "fr": "La méthode des blocs de temps pour étudiants",
+      "en": "Time blocking for students"
+    },
+    "excerpt": {
+      "fr": "Planifiez votre semaine en blocs dédiés pour étudier plus sereinement et garder du temps pour vos candidatures.",
+      "en": "Plan your week in dedicated blocks to study calmly and keep time for your applications."
+    },
+    "body": {
+      "fr": [
+        "Le principe est simple : au lieu d'une longue liste de tâches, vous attribuez à chaque activité un créneau précis dans votre agenda. Cours, révisions, candidatures, sport et repos ont chacun leur place.",
+        "Commencez par bloquer ce qui ne bouge pas (cours, travail, transports), puis placez vos tâches les plus exigeantes aux heures où vous êtes le plus concentré. Réservez un bloc fixe chaque semaine pour vos candidatures : c'est ce qui évite les dossiers bouclés la veille de la date limite.",
+        "Enfin, gardez des blocs tampons. Les imprévus arrivent toujours ; un agenda trop serré se casse au premier retard. Revoyez votre planning chaque dimanche en dix minutes."
+      ],
+      "en": [
+        "The idea is simple: instead of a long to-do list, give each activity a specific slot in your calendar. Classes, revision, applications, exercise and rest each get their place.",
+        "Start by blocking what doesn't move (classes, work, commuting), then place your most demanding tasks at the hours when you focus best. Keep one fixed block every week for applications: that's what stops you finishing files the night before the deadline.",
+        "Finally, keep buffer blocks. Surprises always happen, and an over-packed calendar breaks at the first delay. Review your plan every Sunday in ten minutes."
+      ]
+    }
+  },
+  {
+    "id": "rester-discipline-candidatures",
+    "category": "productivity",
+    "minutes": 4,
+    "published": "2026-11-16",
+    "title": {
+      "fr": "Rester discipliné pendant la saison des candidatures",
+      "en": "Staying disciplined during application season"
+    },
+    "excerpt": {
+      "fr": "Plusieurs dossiers en parallèle, des dates limites qui se rapprochent : comment tenir le rythme sans s'épuiser.",
+      "en": "Several applications at once and deadlines closing in: how to keep the pace without burning out."
+    },
+    "body": {
+      "fr": [
+        "Une saison de candidatures se gagne sur la régularité, pas sur l'intensité. Trente minutes par jour valent mieux qu'un week-end entier de rattrapage.",
+        "Tenez un tableau de suivi : nom de l'opportunité, date limite, documents demandés, statut. Le simple fait de voir l'avancement réduit le stress et vous aide à prioriser.",
+        "Fixez-vous des mini-objectifs : « finir le premier jet de la lettre », « demander la recommandation ». Et célébrez chaque dossier envoyé, quel que soit le résultat."
+      ],
+      "en": [
+        "Application season is won through consistency, not intensity. Thirty minutes a day beats a whole weekend of catching up.",
+        "Keep a tracker: opportunity name, deadline, required documents, status. Simply seeing your progress reduces stress and helps you prioritise.",
+        "Set mini-goals such as “finish the first draft of the letter” or “ask for the recommendation”. And celebrate every application you send, whatever the outcome."
+      ]
+    }
+  },
+  {
+    "id": "choisir-sa-filiere",
+    "category": "career",
+    "minutes": 6,
+    "published": "2026-11-21",
+    "title": {
+      "fr": "Choisir sa filière : 5 questions à se poser",
+      "en": "Choosing your field: 5 questions to ask yourself"
+    },
+    "excerpt": {
+      "fr": "Intérêts, compétences, débouchés, mode de vie : une grille simple pour décider avec plus de clarté.",
+      "en": "Interests, skills, career prospects, lifestyle: a simple framework to decide with more clarity."
+    },
+    "body": {
+      "fr": [
+        "1. Qu'est-ce qui m'intéresse vraiment, même sans note à la clé ? 2. Dans quoi suis-je déjà bon, ou prêt à le devenir ? 3. Quels métiers concrets cette filière ouvre-t-elle ?",
+        "4. Quel mode de vie je souhaite (mobilité, rythme, environnement de travail) ? 5. Quelles opportunités de bourses et de stages existent dans ce domaine ?",
+        "Notez vos réponses, puis parlez à deux ou trois personnes qui étudient ou travaillent dans le domaine. Une conversation de vingt minutes vaut souvent plus que des heures de recherche en ligne."
+      ],
+      "en": [
+        "1. What genuinely interests me, even without a grade attached? 2. What am I already good at, or willing to become good at? 3. Which concrete jobs does this field lead to?",
+        "4. What lifestyle do I want (mobility, pace, work environment)? 5. What scholarships and internships exist in this field?",
+        "Write your answers down, then talk to two or three people who study or work in the field. A twenty-minute conversation is often worth more than hours of online research."
+      ]
+    }
+  },
+  {
+    "id": "reussir-gap-year",
+    "category": "career",
+    "minutes": 7,
+    "published": "2026-11-09",
+    "title": {
+      "fr": "Réussir son année de transition (gap year)",
+      "en": "Making the most of a gap year"
+    },
+    "excerpt": {
+      "fr": "Une année de pause peut devenir un vrai tremplin, à condition de la structurer.",
+      "en": "A year off can become a real springboard, as long as you give it structure."
+    },
+    "body": {
+      "fr": [
+        "Une gap year réussie a un objectif clair : acquérir une compétence, gagner de l'expérience, préparer un projet d'études ou financer la suite.",
+        "Découpez l'année en trimestres avec un objectif par période : par exemple un stage, une formation en ligne certifiante, un engagement bénévole, puis la préparation des candidatures.",
+        "Documentez tout ce que vous faites. Ces expériences deviennent des lignes fortes sur votre CV et des exemples concrets pour vos lettres de motivation et vos entretiens."
+      ],
+      "en": [
+        "A successful gap year has a clear goal: learn a skill, gain experience, prepare a study plan or fund what comes next.",
+        "Split the year into quarters with one goal each: for example an internship, a certified online course, a volunteering role, then preparing applications.",
+        "Document everything you do. These experiences become strong lines on your CV and concrete examples for your motivation letters and interviews."
+      ]
+    }
+  },
+  {
+    "id": "reseau-professionnel",
+    "category": "career",
+    "minutes": 5,
+    "published": "2026-11-02",
+    "title": {
+      "fr": "Construire son réseau professionnel dès l'université",
+      "en": "Building your professional network at university"
+    },
+    "excerpt": {
+      "fr": "LinkedIn, événements, anciens élèves : les gestes simples qui ouvrent des portes.",
+      "en": "LinkedIn, events, alumni: simple habits that open doors."
+    },
+    "body": {
+      "fr": [
+        "Le réseau n'est pas réservé aux extravertis. Il se construit avec de la curiosité et de la régularité.",
+        "Soignez votre profil LinkedIn (photo, titre clair, expériences), puis contactez chaque mois deux anciens élèves ou professionnels de votre domaine avec une question précise.",
+        "Participez aux conférences et webinaires, même en ligne, et faites un suivi après chaque rencontre. Un simple message de remerciement suffit souvent à rester en mémoire."
+      ],
+      "en": [
+        "Networking isn't only for extroverts. It is built through curiosity and consistency.",
+        "Polish your LinkedIn profile (photo, clear headline, experience), then each month reach out to two alumni or professionals in your field with a specific question.",
+        "Attend conferences and webinars, even online, and follow up after each meeting. A short thank-you message is often enough to be remembered."
+      ]
+    }
+  },
+  {
+    "id": "checklist-bourse",
+    "category": "tools",
+    "minutes": 4,
+    "published": "2026-11-24",
+    "title": {
+      "fr": "La checklist d'une candidature à une bourse",
+      "en": "The scholarship application checklist"
+    },
+    "excerpt": {
+      "fr": "Tous les documents à préparer, dans le bon ordre, pour ne rien oublier avant la date limite.",
+      "en": "Every document to prepare, in the right order, so nothing is missing before the deadline."
+    },
+    "body": {
+      "fr": [
+        "Trois mois avant : vérifiez l'éligibilité, listez les documents demandés et contactez vos recommandants. Préparez votre test de langue si nécessaire.",
+        "Deux mois avant : rédigez le premier jet de votre lettre de motivation ou de vos essais, mettez votre CV à jour et rassemblez relevés de notes et diplômes.",
+        "Le dernier mois : faites relire vos textes, vérifiez les traductions et les formats demandés, puis soumettez quelques jours avant la date limite pour éviter les problèmes techniques."
+      ],
+      "en": [
+        "Three months before: check eligibility, list the required documents and contact your referees. Book your language test if needed.",
+        "Two months before: write the first draft of your motivation letter or essays, update your CV and gather transcripts and diplomas.",
+        "In the final month: get your texts reviewed, check translations and required formats, then submit a few days before the deadline to avoid technical problems."
+      ]
+    }
+  }
+]

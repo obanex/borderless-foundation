@@ -1,0 +1,216 @@
+{
+  "entities": [
+    {
+      "id": "opportunities",
+      "planet": "var(--gold)",
+      "icon": "target",
+      "flagship": true,
+      "route": "opportunities",
+      "name": "Opportunities",
+      "short": {
+        "fr": "Détection et partage des opportunités mondiales",
+        "en": "Finding and sharing global opportunities"
+      },
+      "text": {
+        "fr": "L'entité phare : aider les étudiants et jeunes professionnels à identifier, accéder et postuler avec succès aux bourses, fellowships, stages, conférences et emplois.",
+        "en": "The flagship entity: helping students and young professionals identify, access and successfully apply for scholarships, fellowships, internships, conferences and jobs."
+      },
+      "focus": {
+        "fr": [
+          "Mise en relation avec des bourses, fellowships, stages et emplois",
+          "Orientation pour le choix d'université et de programme",
+          "Soutien aux candidatures (CV, lettres, essais, entretiens)",
+          "Exploration de parcours professionnels",
+          "Accès prioritaire à des opportunités sélectionnées"
+        ],
+        "en": [
+          "Scholarship, fellowship, internship and job matching",
+          "University and programme selection guidance",
+          "Application support (CV, letters, essays, interviews)",
+          "Career pathway exploration",
+          "Priority access to curated opportunities"
+        ]
+      },
+      "role": {
+        "fr": "attire les bénéficiaires via les opportunités",
+        "en": "brings people in through opportunities"
+      }
+    },
+    {
+      "id": "consulting",
+      "planet": "var(--teal-600)",
+      "icon": "compass",
+      "route": "services",
+      "name": "Consulting",
+      "short": {
+        "fr": "Conseil, orientation et coaching de carrière",
+        "en": "Guidance, direction and career coaching"
+      },
+      "text": {
+        "fr": "Un coaching personnalisé pour celles et ceux qui se sentent bloqués ou en transition, centré sur la clarté, l'orientation, la productivité et la planification à long terme.",
+        "en": "Personal coaching for anyone who feels stuck or in transition, focused on clarity, direction, productivity and long-term planning."
+      },
+      "focus": {
+        "fr": [
+          "Orientation académique et choix de spécialité",
+          "Planification de gap year et transitions",
+          "Orientation et stratégie de carrière",
+          "Productivité, concentration et gestion du temps",
+          "Développement personnel et confiance en soi",
+          "Soutien émotionnel lors des transitions"
+        ],
+        "en": [
+          "Academic pathway and major selection",
+          "Gap-year and transition planning",
+          "Career direction and strategy",
+          "Productivity, focus and time management",
+          "Self-development and confidence coaching",
+          "Emotional support during transitions"
+        ]
+      },
+      "role": {
+        "fr": "offre un accompagnement approfondi",
+        "en": "provides deeper guidance and direction"
+      }
+    },
+    {
+      "id": "ambassador",
+      "planet": "var(--cyan)",
+      "icon": "users",
+      "route": "ecosystem",
+      "name": "Ambassador",
+      "short": {
+        "fr": "Le réseau communautaire sur le terrain",
+        "en": "The community network on the ground"
+      },
+      "text": {
+        "fr": "Un réseau de jeunes bénévoles qui partagent les opportunités, mobilisent leurs communautés locales et soutiennent les premières étapes de sensibilisation et de présélection.",
+        "en": "A volunteer youth network that shares opportunities, engages local communities and supports first-level outreach and screening."
+      },
+      "focus": {
+        "fr": [
+          "Partage et diffusion des opportunités",
+          "Engagement communautaire",
+          "Soutien et orientation entre pairs",
+          "Représentation de la marque"
+        ],
+        "en": [
+          "Opportunity sharing and awareness",
+          "Community engagement",
+          "Peer support and guidance",
+          "Brand representation"
+        ]
+      },
+      "role": {
+        "fr": "élargit la portée et l'accès",
+        "en": "expands reach and access"
+      }
+    },
+    {
+      "id": "design",
+      "planet": "var(--soft-blue)",
+      "icon": "pen",
+      "route": "advertise",
+      "name": "Design",
+      "short": {
+        "fr": "Le pôle créatif et visuel",
+        "en": "The creative and visual arm"
+      },
+      "text": {
+        "fr": "Des services de design accessibles pour particuliers, startups et organisations. Les revenus générés soutiennent le fonctionnement de la fondation.",
+        "en": "Affordable design services for individuals, startups and organisations. The revenue it generates helps sustain the foundation."
+      },
+      "focus": {
+        "fr": [
+          "Visuels pour réseaux sociaux",
+          "Flyers et affiches",
+          "Éléments de branding",
+          "Design de présentations",
+          "Systèmes d'identité visuelle de base"
+        ],
+        "en": [
+          "Social media graphics",
+          "Flyers and posters",
+          "Branding assets",
+          "Presentation design",
+          "Basic visual identity systems"
+        ]
+      },
+      "role": {
+        "fr": "génère des revenus et soutient le branding",
+        "en": "generates income and supports branding"
+      }
+    },
+    {
+      "id": "partnership",
+      "planet": "#7fb7e8",
+      "icon": "link",
+      "route": "advertise",
+      "name": "Partnership",
+      "short": {
+        "fr": "Passerelles avec des organisations externes",
+        "en": "Bridges to external organisations"
+      },
+      "text": {
+        "fr": "Relie la fondation à des organisations, startups et initiatives pour créer des passerelles concrètes vers l'engagement des jeunes, avec promotion croisée et initiatives communes.",
+        "en": "Connects the foundation with organisations, startups and initiatives to create practical pathways for youth involvement, through cross-promotion and joint initiatives."
+      },
+      "focus": {
+        "fr": [
+          "Projets verts et durabilité",
+          "Technologie et apprentissage de l'IA",
+          "Fitness et bien-être",
+          "Communautés de lecture et d'apprentissage",
+          "Entrepreneuriat et incubation"
+        ],
+        "en": [
+          "Green & sustainability projects",
+          "Technology & AI learning",
+          "Fitness & wellness",
+          "Reading & learning communities",
+          "Entrepreneurship & incubation"
+        ]
+      },
+      "role": {
+        "fr": "connecte l'écosystème au monde réel",
+        "en": "connects the ecosystem to real-world markets"
+      }
+    }
+  ],
+  "ambassadorBenefits": {
+    "fr": [
+      "Ajouter votre rôle d'ambassadeur comme stage sur votre CV et LinkedIn",
+      "Certificat de stage",
+      "Lettre de recommandation pour candidature universitaire ou bourse",
+      "Recommandation LinkedIn",
+      "Accès prioritaire aux futurs postes rémunérés",
+      "Priorité pour devenir assistant·e rémunéré·e",
+      "Recevoir en premier les opportunités de Borderless Opportunities",
+      "Réunions avec des ambassadeurs du monde entier",
+      "Apprendre des outils gratuits : design, gestion de projet, montage vidéo, marketing digital, développement web"
+    ],
+    "en": [
+      "Add your Ambassador role as an internship on your CV and LinkedIn",
+      "Internship certificate",
+      "Letter of recommendation for college or scholarship applications",
+      "LinkedIn recommendation",
+      "Priority access to future paid roles",
+      "Early access to paid assistant opportunities",
+      "Receive Borderless Opportunities promotions first",
+      "Meetings with ambassadors from around the world",
+      "Learn free tools: design, project management, video editing, digital marketing, web development"
+    ]
+  },
+  "ambassadorPath": {
+    "fr": [
+      "Ambassadeur·rice",
+      "Assistant·e rémunéré·e",
+      "Coordinateur·rice de programme"
+    ],
+    "en": [
+      "Ambassador",
+      "Paid Assistant",
+      "Program Coordinator"
+    ]
+  }
+}

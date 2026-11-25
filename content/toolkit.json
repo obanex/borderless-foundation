@@ -1,0 +1,405 @@
+{
+  "docs": [
+    {
+      "id": "cv",
+      "icon": "file",
+      "title": {
+        "fr": "Le CV",
+        "en": "The CV"
+      },
+      "role": {
+        "fr": "Rendre votre parcours lisible",
+        "en": "Make your path easy to read"
+      },
+      "intro": {
+        "fr": "Un CV de candidature à une bourse hiérarchise vos études, vos expériences et vos réalisations. Le jury doit comprendre votre profil en moins d'une minute.",
+        "en": "A scholarship CV ranks your studies, experience and achievements. A panel should understand your profile in under a minute."
+      },
+      "parts": {
+        "fr": [
+          "Formation",
+          "Expériences",
+          "Réalisations"
+        ],
+        "en": [
+          "Education",
+          "Experience",
+          "Achievements"
+        ]
+      },
+      "include": {
+        "fr": [
+          "Formation : diplômes, établissements, mentions, classement si favorable",
+          "Expériences : stages, emplois, projets, avec résultats concrets",
+          "Engagement : associations, bénévolat, leadership",
+          "Compétences : langues (avec niveau), outils, certifications",
+          "Distinctions, publications ou prix"
+        ],
+        "en": [
+          "Education: degrees, institutions, honours, ranking if favourable",
+          "Experience: internships, jobs, projects, with concrete results",
+          "Involvement: associations, volunteering, leadership",
+          "Skills: languages (with level), tools, certifications",
+          "Awards, publications or prizes"
+        ]
+      },
+      "tips": {
+        "fr": [
+          "Deux pages maximum, une page si possible",
+          "Commencer chaque ligne par un verbe d'action",
+          "Adapter le CV au programme visé",
+          "Utiliser le format demandé (ex. Europass) quand il est imposé"
+        ],
+        "en": [
+          "Two pages at most, one if you can",
+          "Start each line with an action verb",
+          "Tailor the CV to the target programme",
+          "Use the required format (e.g. Europass) when it's imposed"
+        ]
+      },
+      "mistakes": {
+        "fr": [
+          "Photo ou informations personnelles inutiles",
+          "Listes de tâches sans résultats",
+          "Fautes d'orthographe et mise en page chargée"
+        ],
+        "en": [
+          "Unnecessary photo or personal details",
+          "Task lists with no results",
+          "Typos and a cluttered layout"
+        ]
+      }
+    },
+    {
+      "id": "project",
+      "icon": "target",
+      "title": {
+        "fr": "Le projet professionnel",
+        "en": "The professional project"
+      },
+      "role": {
+        "fr": "Relier la formation au métier visé",
+        "en": "Link the programme to your target career"
+      },
+      "intro": {
+        "fr": "Le projet professionnel explique d'où vous partez, pourquoi vous choisissez cette formation et ce que vous comptez en faire. C'est souvent la pièce décisive.",
+        "en": "The professional project explains where you come from, why you chose this programme and what you'll do with it. It is often the deciding document."
+      },
+      "parts": {
+        "fr": [
+          "Vos acquis",
+          "La formation",
+          "Votre objectif"
+        ],
+        "en": [
+          "Your background",
+          "The programme",
+          "Your goal"
+        ]
+      },
+      "include": {
+        "fr": [
+          "Vos acquis : ce que vos études et expériences vous ont appris",
+          "Le déclic : le problème ou le secteur qui vous motive",
+          "La formation : pourquoi ce programme, ces cours, cet établissement",
+          "L'objectif : le poste visé à court et moyen terme",
+          "L'impact : ce que cela apportera à votre pays ou votre communauté"
+        ],
+        "en": [
+          "Your background: what your studies and experience taught you",
+          "The spark: the problem or sector that drives you",
+          "The programme: why this course, these modules, this institution",
+          "The goal: the role you aim for in the short and medium term",
+          "The impact: what it will bring to your country or community"
+        ]
+      },
+      "tips": {
+        "fr": [
+          "Être précis : nommer des postes, des organisations, des cours",
+          "Montrer une cohérence entre passé, formation et avenir",
+          "Rester réaliste et vérifiable"
+        ],
+        "en": [
+          "Be specific: name roles, organisations, modules",
+          "Show consistency between past, programme and future",
+          "Stay realistic and verifiable"
+        ]
+      },
+      "mistakes": {
+        "fr": [
+          "Objectifs vagues (« contribuer au développement »)",
+          "Copier la description de la formation",
+          "Oublier le lien avec le pays d'origine quand il est attendu"
+        ],
+        "en": [
+          "Vague goals (“contribute to development”)",
+          "Copying the programme description",
+          "Forgetting the link to your home country when it's expected"
+        ]
+      }
+    },
+    {
+      "id": "letter",
+      "icon": "pen",
+      "title": {
+        "fr": "La lettre de motivation",
+        "en": "The motivation letter"
+      },
+      "role": {
+        "fr": "Défendre le choix de la formation",
+        "en": "Defend your choice of programme"
+      },
+      "intro": {
+        "fr": "La lettre met en relation votre profil, la formation choisie et les raisons de votre candidature. Une lettre générique se remarque immédiatement.",
+        "en": "The letter connects your profile, the chosen programme and your reasons for applying. A generic letter is spotted immediately."
+      },
+      "parts": {
+        "fr": [
+          "Vous",
+          "Eux",
+          "Nous"
+        ],
+        "en": [
+          "You",
+          "Them",
+          "Together"
+        ]
+      },
+      "include": {
+        "fr": [
+          "Une accroche personnelle et concrète",
+          "Vos atouts en lien direct avec la formation",
+          "Ce que le programme vous apportera, cours et ressources à l'appui",
+          "Ce que vous apporterez à la promotion",
+          "Une conclusion qui rappelle votre objectif"
+        ],
+        "en": [
+          "A personal, concrete opening",
+          "Your strengths directly linked to the programme",
+          "What the programme will give you, with modules and resources",
+          "What you'll bring to the cohort",
+          "A conclusion that restates your goal"
+        ]
+      },
+      "tips": {
+        "fr": [
+          "Une page, sauf consigne contraire",
+          "Une lettre par programme",
+          "Faire relire par une personne du domaine"
+        ],
+        "en": [
+          "One page unless told otherwise",
+          "One letter per programme",
+          "Have someone from the field review it"
+        ]
+      },
+      "mistakes": {
+        "fr": [
+          "Changer seulement le nom de l'université d'une lettre à l'autre",
+          "Répéter le CV",
+          "Ton trop flatteur ou trop modeste"
+        ],
+        "en": [
+          "Only changing the university's name between letters",
+          "Repeating your CV",
+          "A tone that's too flattering or too modest"
+        ]
+      }
+    },
+    {
+      "id": "recommendation",
+      "icon": "users",
+      "title": {
+        "fr": "La recommandation",
+        "en": "The recommendation"
+      },
+      "role": {
+        "fr": "Un regard précis sur votre travail",
+        "en": "A precise view of your work"
+      },
+      "intro": {
+        "fr": "Une bonne recommandation vient d'une personne qui a réellement observé votre travail, et s'appuie sur des faits. Votre rôle : choisir le bon référent et lui faciliter la tâche.",
+        "en": "A good recommendation comes from someone who has truly observed your work, and relies on facts. Your job: pick the right referee and make their task easy."
+      },
+      "parts": {
+        "fr": [
+          "Choisir",
+          "Informer",
+          "Relancer"
+        ],
+        "en": [
+          "Choose",
+          "Brief",
+          "Follow up"
+        ]
+      },
+      "include": {
+        "fr": [
+          "Le contexte : comment et combien de temps le référent vous connaît",
+          "Des exemples précis de travaux ou de réalisations",
+          "Une comparaison avec d'autres étudiants quand c'est possible",
+          "Un avis clair sur votre capacité à réussir le programme"
+        ],
+        "en": [
+          "Context: how and for how long the referee has known you",
+          "Specific examples of work or achievements",
+          "A comparison with other students where possible",
+          "A clear opinion on your ability to succeed in the programme"
+        ]
+      },
+      "tips": {
+        "fr": [
+          "Demander au moins trois semaines avant la date limite",
+          "Envoyer un dossier : CV, projet, description du programme, date limite",
+          "Rappeler poliment une semaine avant l'échéance"
+        ],
+        "en": [
+          "Ask at least three weeks before the deadline",
+          "Send a pack: CV, project, programme description, deadline",
+          "Politely remind them a week before"
+        ]
+      },
+      "mistakes": {
+        "fr": [
+          "Choisir un référent prestigieux qui ne vous connaît pas",
+          "Demander à la dernière minute",
+          "Rédiger la lettre à la place du référent"
+        ],
+        "en": [
+          "Choosing a prestigious referee who doesn't know you",
+          "Asking at the last minute",
+          "Writing the letter for your referee"
+        ]
+      }
+    },
+    {
+      "id": "record",
+      "icon": "trending",
+      "title": {
+        "fr": "Le dossier académique",
+        "en": "Your academic record"
+      },
+      "role": {
+        "fr": "Situer vos notes dans les critères",
+        "en": "Place your grades within the criteria"
+      },
+      "intro": {
+        "fr": "Notes, classement, GPA : chaque programme lit votre dossier différemment. Comprendre comment vos résultats seront interprétés vous aide à choisir où candidater et à mettre en avant vos points forts.",
+        "en": "Grades, ranking, GPA: every programme reads your record differently. Understanding how your results will be read helps you choose where to apply and highlight your strengths."
+      },
+      "parts": {
+        "fr": [
+          "Notes",
+          "Classement",
+          "GPA"
+        ],
+        "en": [
+          "Grades",
+          "Ranking",
+          "GPA"
+        ]
+      },
+      "include": {
+        "fr": [
+          "Relevés de notes officiels de chaque année",
+          "Attestation de classement si vous êtes bien placé",
+          "Explication du barème de votre pays si nécessaire",
+          "Évaluation de diplôme (ex. WES) quand elle est exigée"
+        ],
+        "en": [
+          "Official transcripts for each year",
+          "A ranking certificate if you rank well",
+          "An explanation of your country's grading scale if needed",
+          "Credential evaluation (e.g. WES) when required"
+        ]
+      },
+      "tips": {
+        "fr": [
+          "Il n'existe pas de conversion universelle des notes en GPA : utilisez celle demandée par le programme",
+          "Mettre en avant une progression ou d'excellentes notes dans les matières clés",
+          "La moyenne n'est jamais le seul critère"
+        ],
+        "en": [
+          "There is no universal grade-to-GPA conversion: use the one the programme asks for",
+          "Highlight an upward trend or strong grades in key subjects",
+          "Your average is never the only criterion"
+        ]
+      },
+      "mistakes": {
+        "fr": [
+          "Convertir soi-même ses notes sans méthode officielle",
+          "Ne pas joindre le barème de notation",
+          "Renoncer à candidater pour une moyenne jugée « trop basse »"
+        ],
+        "en": [
+          "Converting grades yourself without an official method",
+          "Leaving out the grading scale",
+          "Not applying because your average feels “too low”"
+        ]
+      }
+    }
+  ],
+  "collection": [
+    {
+      "id": "best",
+      "route": "#/opportunities/scholarships",
+      "file": "",
+      "title": {
+        "fr": "La liste des meilleures bourses",
+        "en": "The list of top scholarships"
+      },
+      "text": {
+        "fr": "Des programmes auxquels vous pouvez candidater.",
+        "en": "Programmes you can apply to."
+      }
+    },
+    {
+      "id": "emails",
+      "file": "",
+      "title": {
+        "fr": "Modèles de courriels aux établissements",
+        "en": "Email templates for institutions"
+      },
+      "text": {
+        "fr": "Pour solliciter le soutien de votre candidature.",
+        "en": "To ask for support for your application."
+      }
+    },
+    {
+      "id": "rec-requests",
+      "file": "",
+      "title": {
+        "fr": "Modèles de demande de recommandation",
+        "en": "Recommendation request templates"
+      },
+      "text": {
+        "fr": "Pour demander une lettre à un enseignant ou un référent.",
+        "en": "To ask a teacher or referee for a letter."
+      }
+    },
+    {
+      "id": "cv-examples",
+      "file": "",
+      "title": {
+        "fr": "Exemples de CV de lauréats",
+        "en": "Laureate CV examples"
+      },
+      "text": {
+        "fr": "Pour travailler la présentation de votre parcours.",
+        "en": "To work on how you present your path."
+      }
+    },
+    {
+      "id": "project-examples",
+      "file": "",
+      "title": {
+        "fr": "Exemples de projets professionnels",
+        "en": "Professional project examples"
+      },
+      "text": {
+        "fr": "Des projets rédigés pour des candidatures réussies.",
+        "en": "Projects written for successful applications."
+      }
+    }
+  ]
+}

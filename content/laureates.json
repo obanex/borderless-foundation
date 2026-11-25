@@ -1,0 +1,250 @@
+[
+  {
+    "id": "amara-d",
+    "name": "Amara D.",
+    "sample": true,
+    "year": 2025,
+    "scholarship": "eiffel",
+    "country": {
+      "fr": "Côte d'Ivoire",
+      "en": "Côte d'Ivoire"
+    },
+    "programme": {
+      "fr": "Master Économie du développement",
+      "en": "Master's in Development Economics"
+    },
+    "quote": {
+      "fr": "J'ai réécrit mon projet professionnel quatre fois. La dernière version tenait en une page, et chaque phrase servait.",
+      "en": "I rewrote my professional project four times. The final version fit on one page, and every sentence counted."
+    },
+    "answers": {
+      "fr": [
+        "J'ai commencé six mois avant, en listant les formations qui correspondaient vraiment à mon projet.",
+        "Le plus difficile a été d'expliquer clairement le lien entre mon expérience et le master.",
+        "Commencez tôt, et faites relire vos documents par quelqu'un qui ne vous connaît pas."
+      ],
+      "en": [
+        "I started six months ahead, listing the programmes that truly matched my plans.",
+        "The hardest part was clearly explaining the link between my experience and the Master's.",
+        "Start early, and have your documents read by someone who doesn't know you."
+      ]
+    }
+  },
+  {
+    "id": "kwame-o",
+    "name": "Kwame O.",
+    "sample": true,
+    "year": 2025,
+    "scholarship": "chevening",
+    "country": {
+      "fr": "Ghana",
+      "en": "Ghana"
+    },
+    "programme": {
+      "fr": "MSc Politiques publiques",
+      "en": "MSc Public Policy"
+    },
+    "quote": {
+      "fr": "Mes essais racontaient des situations concrètes, pas des intentions. C'est ce que le jury m'a dit avoir retenu.",
+      "en": "My essays told concrete stories, not intentions. That's what the panel said they remembered."
+    },
+    "answers": {
+      "fr": [
+        "Après trois ans dans une ONG, j'ai voulu acquérir des outils d'analyse des politiques publiques.",
+        "Les essais : trouver des exemples précis de leadership dans mon quotidien.",
+        "Préparez l'entretien comme une conversation : connaissez votre parcours par cœur."
+      ],
+      "en": [
+        "After three years at an NGO, I wanted tools to analyse public policy.",
+        "The essays: finding precise examples of leadership in my everyday work.",
+        "Prepare the interview like a conversation: know your own story inside out."
+      ]
+    }
+  },
+  {
+    "id": "sofia-r",
+    "name": "Sofia R.",
+    "sample": true,
+    "year": 2024,
+    "scholarship": "erasmus-mundus",
+    "country": {
+      "fr": "Colombie",
+      "en": "Colombia"
+    },
+    "programme": {
+      "fr": "Master conjoint en Énergies renouvelables",
+      "en": "Joint Master's in Renewable Energy"
+    },
+    "quote": {
+      "fr": "J'ai candidaté à trois masters Erasmus Mundus. Le troisième était le bon.",
+      "en": "I applied to three Erasmus Mundus Master's. The third one was it."
+    },
+    "answers": {
+      "fr": [
+        "J'ai parcouru tout le catalogue et gardé les masters dont les cours correspondaient à mon mémoire.",
+        "Adapter chaque lettre à un consortium différent demande beaucoup de temps.",
+        "Ne vous découragez pas après un refus : chaque dossier vous rend meilleur."
+      ],
+      "en": [
+        "I went through the whole catalogue and kept the ones whose modules matched my thesis.",
+        "Tailoring each letter to a different consortium takes a lot of time.",
+        "Don't give up after a rejection: every application makes you better."
+      ]
+    }
+  },
+  {
+    "id": "mehdi-b",
+    "name": "Mehdi B.",
+    "sample": true,
+    "year": 2024,
+    "scholarship": "daad",
+    "country": {
+      "fr": "Maroc",
+      "en": "Morocco"
+    },
+    "programme": {
+      "fr": "Doctorat en Génie des matériaux",
+      "en": "PhD in Materials Engineering"
+    },
+    "quote": {
+      "fr": "Avoir l'accord d'un directeur de thèse avant de candidater a tout changé.",
+      "en": "Having a supervisor's agreement before applying changed everything."
+    },
+    "answers": {
+      "fr": [
+        "J'ai contacté une dizaine de laboratoires avec un résumé de recherche d'une page.",
+        "Rédiger une proposition de recherche convaincante et réaliste.",
+        "Écrivez aux professeurs : beaucoup répondent si votre message est précis."
+      ],
+      "en": [
+        "I contacted about ten labs with a one-page research summary.",
+        "Writing a convincing, realistic research proposal.",
+        "Email professors: many reply if your message is specific."
+      ]
+    }
+  },
+  {
+    "id": "grace-n",
+    "name": "Grace N.",
+    "sample": true,
+    "year": 2025,
+    "scholarship": "mastercard-foundation",
+    "country": {
+      "fr": "Rwanda",
+      "en": "Rwanda"
+    },
+    "programme": {
+      "fr": "Licence Santé publique",
+      "en": "Bachelor's in Public Health"
+    },
+    "quote": {
+      "fr": "Mon engagement dans ma communauté a compté autant que mes notes.",
+      "en": "My community work counted as much as my grades."
+    },
+    "answers": {
+      "fr": [
+        "Je donnais des cours de soutien dans mon quartier depuis deux ans.",
+        "Parler de moi avec assurance pendant l'entretien.",
+        "Valorisez ce que vous faites déjà pour les autres, même à petite échelle."
+      ],
+      "en": [
+        "I had been tutoring children in my neighbourhood for two years.",
+        "Talking about myself with confidence in the interview.",
+        "Value what you already do for others, even on a small scale."
+      ]
+    }
+  },
+  {
+    "id": "lucas-m",
+    "name": "Lucas M.",
+    "sample": true,
+    "year": 2023,
+    "scholarship": "mext",
+    "country": {
+      "fr": "Haïti",
+      "en": "Haiti"
+    },
+    "programme": {
+      "fr": "Master Robotique",
+      "en": "Master's in Robotics"
+    },
+    "quote": {
+      "fr": "J'ai commencé le japonais un an avant de candidater. Les examinateurs l'ont remarqué.",
+      "en": "I started learning Japanese a year before applying. The examiners noticed."
+    },
+    "answers": {
+      "fr": [
+        "Je suivais les annonces de l'ambassade du Japon depuis la licence.",
+        "Les épreuves écrites, que j'ai préparées avec d'anciens sujets.",
+        "Montrez votre intérêt pour le pays, pas seulement pour la bourse."
+      ],
+      "en": [
+        "I'd followed the Japanese Embassy's announcements since my Bachelor's.",
+        "The written exams, which I prepared with past papers.",
+        "Show interest in the country, not just the scholarship."
+      ]
+    }
+  },
+  {
+    "id": "aicha-t",
+    "name": "Aïcha T.",
+    "sample": true,
+    "year": 2023,
+    "scholarship": "turkiye-burslari",
+    "country": {
+      "fr": "Sénégal",
+      "en": "Senegal"
+    },
+    "programme": {
+      "fr": "Master Relations internationales",
+      "en": "Master's in International Relations"
+    },
+    "quote": {
+      "fr": "J'ai choisi mes 12 formations avec soin, pas au hasard. C'était ma stratégie.",
+      "en": "I chose my 12 programmes carefully, not at random. That was my strategy."
+    },
+    "answers": {
+      "fr": [
+        "J'ai classé les formations selon les cours et la ville.",
+        "Gérer le stress de l'entretien en ligne.",
+        "Lisez attentivement chaque question du formulaire avant de répondre."
+      ],
+      "en": [
+        "I ranked the programmes by modules and city.",
+        "Handling the stress of the online interview.",
+        "Read every question on the form carefully before answering."
+      ]
+    }
+  },
+  {
+    "id": "daniel-k",
+    "name": "Daniel K.",
+    "sample": true,
+    "year": 2024,
+    "scholarship": "fulbright",
+    "country": {
+      "fr": "Cameroun",
+      "en": "Cameroon"
+    },
+    "programme": {
+      "fr": "Master Santé mondiale",
+      "en": "Master's in Global Health"
+    },
+    "quote": {
+      "fr": "Le processus a duré plus d'un an. La patience fait partie de la candidature.",
+      "en": "The process took more than a year. Patience is part of the application."
+    },
+    "answers": {
+      "fr": [
+        "J'ai suivi les sessions d'information de la commission de mon pays.",
+        "Obtenir un bon score au TOEFL tout en travaillant.",
+        "Notez toutes les étapes dans un calendrier dès le premier jour."
+      ],
+      "en": [
+        "I attended my country's commission info sessions.",
+        "Getting a good TOEFL score while working.",
+        "Put every step in a calendar from day one."
+      ]
+    }
+  }
+]

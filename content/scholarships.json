@@ -1,0 +1,1447 @@
+[
+  {
+    "id": "eiffel",
+    "name": "Eiffel Excellence Scholarship",
+    "dest": "europe",
+    "levels": [
+      "master",
+      "phd"
+    ],
+    "coverage": "partial",
+    "countries": [
+      "FR"
+    ],
+    "featured": true,
+    "link": "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
+    "country": {
+      "fr": "France",
+      "en": "France"
+    },
+    "funder": {
+      "fr": "Ministère de l'Europe et des Affaires étrangères (géré par Campus France)",
+      "en": "French Ministry for Europe and Foreign Affairs (managed by Campus France)"
+    },
+    "tagline": {
+      "fr": "Une candidature portée par un établissement français, pour un master, un diplôme d'ingénieur ou un doctorat.",
+      "en": "An application put forward by a French institution, for a Master's, an engineering degree or a PhD."
+    },
+    "route": {
+      "fr": "Par l'établissement français d'accueil",
+      "en": "Through the French host institution"
+    },
+    "window": {
+      "fr": "Dossiers transmis par les établissements vers janvier ; résultats vers mars",
+      "en": "Institutions submit files around January; results around March"
+    },
+    "overview": {
+      "fr": "Le programme Eiffel permet aux établissements français d'attirer les meilleurs étudiants internationaux. Particularité : vous ne postulez pas directement. Vous candidatez d'abord à une formation, puis c'est l'établissement qui présente votre dossier au programme.",
+      "en": "The Eiffel programme helps French institutions attract top international students. The key point: you don't apply directly. You first apply to a programme, then the institution puts your file forward to Eiffel."
+    },
+    "benefits": {
+      "fr": [
+        "Allocation mensuelle de subsistance",
+        "Billet d'avion aller-retour",
+        "Assurance santé",
+        "Activités culturelles ; les frais de scolarité ne sont pas couverts par la bourse"
+      ],
+      "en": [
+        "Monthly living allowance",
+        "Return flight",
+        "Health insurance",
+        "Cultural activities; tuition fees are not covered by the scholarship"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Être de nationalité étrangère (non française)",
+        "Être admis ou en cours d'admission dans une formation éligible",
+        "Respecter les limites d'âge fixées par l'appel en cours",
+        "Un seul établissement peut présenter votre candidature"
+      ],
+      "en": [
+        "Be a foreign (non-French) national",
+        "Be admitted, or applying, to an eligible programme",
+        "Meet the age limits set in the current call",
+        "Only one institution may put your application forward"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Choisir une formation en France dans un domaine éligible",
+        "Candidater à la formation et signaler votre intérêt pour Eiffel",
+        "Préparer CV, projet professionnel, lettres et relevés",
+        "L'établissement sélectionne et dépose votre dossier",
+        "Suivre les résultats et préparer votre arrivée"
+      ],
+      "en": [
+        "Choose a programme in France in an eligible field",
+        "Apply to the programme and say you're interested in Eiffel",
+        "Prepare your CV, professional project, letters and transcripts",
+        "The institution selects and submits your file",
+        "Check the results and prepare your arrival"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Sept. – déc.",
+          "en": "Sep – Dec"
+        },
+        "what": {
+          "fr": "Candidatures aux formations et dossiers Eiffel internes",
+          "en": "Programme applications and internal Eiffel files"
+        }
+      },
+      {
+        "when": {
+          "fr": "Janvier",
+          "en": "January"
+        },
+        "what": {
+          "fr": "Dépôt des dossiers par les établissements",
+          "en": "Institutions submit files"
+        }
+      },
+      {
+        "when": {
+          "fr": "Mars",
+          "en": "March"
+        },
+        "what": {
+          "fr": "Publication des résultats",
+          "en": "Results published"
+        }
+      },
+      {
+        "when": {
+          "fr": "Sept.",
+          "en": "Sep"
+        },
+        "what": {
+          "fr": "Début de la formation",
+          "en": "Programme starts"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "fr": "Puis-je postuler directement à Campus France ?",
+          "en": "Can I apply directly to Campus France?"
+        },
+        "a": {
+          "fr": "Non. Seuls les établissements français peuvent présenter une candidature Eiffel.",
+          "en": "No. Only French institutions can put an Eiffel application forward."
+        }
+      },
+      {
+        "q": {
+          "fr": "La bourse couvre-t-elle les frais de scolarité ?",
+          "en": "Does it cover tuition fees?"
+        },
+        "a": {
+          "fr": "Non, mais certains établissements accordent une exonération aux lauréats. Renseignez-vous auprès de votre formation.",
+          "en": "No, but some institutions waive fees for laureates. Ask your programme."
+        }
+      }
+    ]
+  },
+  {
+    "id": "chevening",
+    "name": "Chevening Scholarships",
+    "dest": "europe",
+    "levels": [
+      "master"
+    ],
+    "coverage": "full",
+    "countries": [
+      "GB"
+    ],
+    "featured": true,
+    "link": "https://www.chevening.org/",
+    "country": {
+      "fr": "Royaume-Uni",
+      "en": "United Kingdom"
+    },
+    "funder": {
+      "fr": "Gouvernement britannique (FCDO) et partenaires",
+      "en": "UK Government (FCDO) and partners"
+    },
+    "tagline": {
+      "fr": "Un master d'un an au Royaume-Uni pour de futurs leaders, avec un fort accent sur l'expérience professionnelle.",
+      "en": "A one-year Master's in the UK for future leaders, with a strong focus on work experience."
+    },
+    "route": {
+      "fr": "Candidature directe en ligne sur le portail Chevening",
+      "en": "Direct online application on the Chevening portal"
+    },
+    "window": {
+      "fr": "Ouverture vers août, clôture début novembre",
+      "en": "Opens around August, closes early November"
+    },
+    "overview": {
+      "fr": "Chevening finance des masters d'un an dans n'importe quelle université britannique pour des profils à fort potentiel de leadership. Le dossier repose sur des essais (leadership, réseau, choix d'études, plan de carrière) et un entretien.",
+      "en": "Chevening funds one-year Master's degrees at any UK university for people with strong leadership potential. The application relies on essays (leadership, networking, study choice, career plan) and an interview."
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité",
+        "Allocation mensuelle de subsistance",
+        "Billet d'avion aller-retour",
+        "Allocations d'arrivée et de départ, frais de visa",
+        "Accès au réseau mondial des alumni Chevening"
+      ],
+      "en": [
+        "Tuition fees",
+        "Monthly living allowance",
+        "Return flight",
+        "Arrival and departure allowances, visa costs",
+        "Access to the global Chevening alumni network"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Être citoyen d'un pays éligible à Chevening",
+        "Avoir un diplôme de premier cycle permettant l'entrée en master",
+        "Justifier d'au moins deux ans d'expérience professionnelle",
+        "S'engager à rentrer dans son pays au moins deux ans après la bourse",
+        "Candidater à trois formations éligibles au Royaume-Uni"
+      ],
+      "en": [
+        "Be a citizen of a Chevening-eligible country",
+        "Hold an undergraduate degree that gives access to a Master's",
+        "Have at least two years of work experience",
+        "Commit to returning home for at least two years after the award",
+        "Apply to three eligible UK courses"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Vérifier l'éligibilité de votre pays et choisir trois masters",
+        "Rédiger les quatre essais Chevening",
+        "Soumettre le dossier en ligne avant la date limite",
+        "Passer l'entretien à l'ambassade ou en ligne",
+        "Obtenir une offre inconditionnelle d'une université"
+      ],
+      "en": [
+        "Check your country's eligibility and choose three Master's courses",
+        "Write the four Chevening essays",
+        "Submit online before the deadline",
+        "Attend the interview at the embassy or online",
+        "Secure an unconditional offer from a university"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Août – nov.",
+          "en": "Aug – Nov"
+        },
+        "what": {
+          "fr": "Candidatures en ligne",
+          "en": "Online applications"
+        }
+      },
+      {
+        "when": {
+          "fr": "Févr. – avr.",
+          "en": "Feb – Apr"
+        },
+        "what": {
+          "fr": "Entretiens",
+          "en": "Interviews"
+        }
+      },
+      {
+        "when": {
+          "fr": "Juin",
+          "en": "June"
+        },
+        "what": {
+          "fr": "Résultats",
+          "en": "Results"
+        }
+      },
+      {
+        "when": {
+          "fr": "Sept. – oct.",
+          "en": "Sep – Oct"
+        },
+        "what": {
+          "fr": "Départ au Royaume-Uni",
+          "en": "Travel to the UK"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "fr": "Les stages comptent-ils dans l'expérience professionnelle ?",
+          "en": "Do internships count as work experience?"
+        },
+        "a": {
+          "fr": "Les règles précises sont détaillées sur le site officiel : vérifiez ce qui est accepté pour l'année en cours.",
+          "en": "The exact rules are set out on the official site: check what counts for the current year."
+        }
+      }
+    ]
+  },
+  {
+    "id": "fulbright",
+    "name": "Fulbright Foreign Student Program",
+    "dest": "north-america",
+    "levels": [
+      "master",
+      "phd"
+    ],
+    "coverage": "full",
+    "countries": [
+      "US"
+    ],
+    "featured": true,
+    "link": "https://foreign.fulbrightonline.org/",
+    "country": {
+      "fr": "États-Unis",
+      "en": "United States"
+    },
+    "funder": {
+      "fr": "Département d'État des États-Unis",
+      "en": "U.S. Department of State"
+    },
+    "tagline": {
+      "fr": "Les études supérieures aux États-Unis, avec une procédure organisée pays par pays.",
+      "en": "Graduate study in the United States, with a process organised country by country."
+    },
+    "route": {
+      "fr": "Commission Fulbright ou ambassade des États-Unis de votre pays",
+      "en": "Fulbright Commission or U.S. Embassy in your country"
+    },
+    "window": {
+      "fr": "Variable selon les pays, souvent 12 à 15 mois avant le départ",
+      "en": "Varies by country, often 12–15 months before departure"
+    },
+    "overview": {
+      "fr": "Fulbright est le programme d'échanges phare des États-Unis. Chaque pays fixe son calendrier, ses domaines prioritaires et ses critères : la première étape est donc toujours la page Fulbright de votre pays.",
+      "en": "Fulbright is the flagship U.S. exchange programme. Each country sets its own calendar, priority fields and criteria, so the first step is always your country's Fulbright page."
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité (selon les pays)",
+        "Allocation de subsistance",
+        "Billet d'avion",
+        "Assurance santé",
+        "Accompagnement pour le placement universitaire"
+      ],
+      "en": [
+        "Tuition (depending on country)",
+        "Living stipend",
+        "Airfare",
+        "Health insurance",
+        "Support with university placement"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Être citoyen du pays où vous candidatez",
+        "Avoir un diplôme de premier cycle",
+        "Bon niveau d'anglais (TOEFL ou IELTS souvent demandé)",
+        "Critères complémentaires fixés par chaque pays"
+      ],
+      "en": [
+        "Be a citizen of the country you apply from",
+        "Hold a Bachelor's degree",
+        "Strong English (TOEFL or IELTS often required)",
+        "Additional criteria set by each country"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Trouver la commission ou l'ambassade compétente",
+        "Lire l'appel de votre pays et son calendrier",
+        "Préparer essais, recommandations et tests",
+        "Soumettre la candidature en ligne",
+        "Entretien puis placement universitaire"
+      ],
+      "en": [
+        "Find the relevant commission or embassy",
+        "Read your country's call and calendar",
+        "Prepare essays, recommendations and tests",
+        "Submit the online application",
+        "Interview, then university placement"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Année N-1",
+          "en": "Year before"
+        },
+        "what": {
+          "fr": "Appel national et candidatures",
+          "en": "National call and applications"
+        }
+      },
+      {
+        "when": {
+          "fr": "+ 2 à 4 mois",
+          "en": "+2–4 months"
+        },
+        "what": {
+          "fr": "Entretiens",
+          "en": "Interviews"
+        }
+      },
+      {
+        "when": {
+          "fr": "+ 6 à 9 mois",
+          "en": "+6–9 months"
+        },
+        "what": {
+          "fr": "Placement universitaire",
+          "en": "University placement"
+        }
+      },
+      {
+        "when": {
+          "fr": "Août",
+          "en": "August"
+        },
+        "what": {
+          "fr": "Départ",
+          "en": "Departure"
+        }
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "daad",
+    "name": "DAAD Scholarships",
+    "dest": "europe",
+    "levels": [
+      "master",
+      "phd"
+    ],
+    "coverage": "full",
+    "countries": [
+      "DE"
+    ],
+    "featured": false,
+    "link": "https://www.daad.de/en/",
+    "country": {
+      "fr": "Allemagne",
+      "en": "Germany"
+    },
+    "funder": {
+      "fr": "Office allemand d'échanges universitaires (DAAD)",
+      "en": "German Academic Exchange Service (DAAD)"
+    },
+    "tagline": {
+      "fr": "Des dizaines de programmes pour étudier ou faire de la recherche en Allemagne, du master au doctorat.",
+      "en": "Dozens of programmes to study or do research in Germany, from Master's to PhD."
+    },
+    "route": {
+      "fr": "Base de données DAAD, puis portail DAAD ou université selon le programme",
+      "en": "DAAD database, then DAAD portal or university depending on the programme"
+    },
+    "window": {
+      "fr": "Variable selon le programme, souvent entre août et octobre",
+      "en": "Varies by programme, often August to October"
+    },
+    "overview": {
+      "fr": "Le DAAD n'est pas une bourse unique mais un ensemble de programmes : masters liés au développement (EPOS), bourses de recherche doctorale, séjours courts… Commencez par la base de données des bourses du DAAD en filtrant par pays d'origine et niveau.",
+      "en": "DAAD isn't one scholarship but a family of programmes: development-related Master's (EPOS), doctoral research grants, short stays and more. Start with the DAAD scholarship database, filtering by home country and level."
+    },
+    "benefits": {
+      "fr": [
+        "Versements mensuels",
+        "Allocation de voyage",
+        "Assurance santé",
+        "Cours d'allemand selon les programmes",
+        "Frais de scolarité souvent inexistants dans les universités publiques"
+      ],
+      "en": [
+        "Monthly payments",
+        "Travel allowance",
+        "Health insurance",
+        "German classes in some programmes",
+        "Public universities often charge no tuition"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Diplôme de licence (master) ou de master (doctorat)",
+        "Expérience professionnelle exigée pour certains programmes (ex. EPOS)",
+        "Diplôme récent pour les bourses de recherche",
+        "Projet d'études ou de recherche clair"
+      ],
+      "en": [
+        "Bachelor's (for Master's) or Master's (for PhD)",
+        "Work experience required for some programmes (e.g. EPOS)",
+        "Recent degree for research grants",
+        "A clear study or research plan"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Filtrer la base de données des bourses DAAD",
+        "Identifier la procédure du programme choisi",
+        "Préparer lettre de motivation, CV et recommandations",
+        "Déposer sur le portail DAAD ou auprès de l'université",
+        "Suivre la sélection et les entretiens éventuels"
+      ],
+      "en": [
+        "Filter the DAAD scholarship database",
+        "Identify the chosen programme's process",
+        "Prepare motivation letter, CV and recommendations",
+        "Apply on the DAAD portal or to the university",
+        "Follow selection and any interviews"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Août – oct.",
+          "en": "Aug – Oct"
+        },
+        "what": {
+          "fr": "Candidatures (nombreux programmes)",
+          "en": "Applications (many programmes)"
+        }
+      },
+      {
+        "when": {
+          "fr": "Hiver – printemps",
+          "en": "Winter – spring"
+        },
+        "what": {
+          "fr": "Sélection",
+          "en": "Selection"
+        }
+      },
+      {
+        "when": {
+          "fr": "Oct.",
+          "en": "Oct"
+        },
+        "what": {
+          "fr": "Rentrée universitaire",
+          "en": "Academic year starts"
+        }
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "erasmus-mundus",
+    "name": "Erasmus Mundus Joint Masters",
+    "dest": "europe",
+    "levels": [
+      "master"
+    ],
+    "coverage": "full",
+    "countries": [],
+    "featured": false,
+    "link": "https://www.eacea.ec.europa.eu/scholarships/erasmus-mundus-catalogue_en",
+    "country": {
+      "fr": "Plusieurs pays européens",
+      "en": "Several European countries"
+    },
+    "funder": {
+      "fr": "Union européenne",
+      "en": "European Union"
+    },
+    "tagline": {
+      "fr": "Un master conjoint dans au moins deux pays européens, ouvert à toutes les nationalités.",
+      "en": "A joint Master's in at least two European countries, open to all nationalities."
+    },
+    "route": {
+      "fr": "Directement auprès de chaque consortium de master",
+      "en": "Directly to each Master's consortium"
+    },
+    "window": {
+      "fr": "Souvent entre octobre et février, selon les masters",
+      "en": "Often October to February, depending on the Master's"
+    },
+    "overview": {
+      "fr": "Chaque master Erasmus Mundus est porté par un consortium d'universités. Vous postulez au master lui-même, et les meilleurs candidats reçoivent une bourse UE. Le catalogue officiel liste tous les programmes ouverts.",
+      "en": "Each Erasmus Mundus Master's is run by a consortium of universities. You apply to the Master's itself, and the top candidates receive an EU scholarship. The official catalogue lists every open programme."
+    },
+    "benefits": {
+      "fr": [
+        "Frais de participation (scolarité)",
+        "Allocation mensuelle",
+        "Frais de voyage et d'installation",
+        "Expérience dans plusieurs pays et diplôme conjoint ou multiple"
+      ],
+      "en": [
+        "Participation costs (tuition)",
+        "Monthly allowance",
+        "Travel and installation costs",
+        "Study in several countries with a joint or multiple degree"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Licence ou équivalent",
+        "Critères académiques et linguistiques propres à chaque master",
+        "Ouvert à toutes les nationalités"
+      ],
+      "en": [
+        "Bachelor's degree or equivalent",
+        "Academic and language criteria set by each Master's",
+        "Open to all nationalities"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Parcourir le catalogue Erasmus Mundus",
+        "Sélectionner les masters qui correspondent à votre profil",
+        "Préparer le dossier demandé par chaque consortium",
+        "Candidater avant la date limite de bourse",
+        "Attendre les résultats (liste principale ou d'attente)"
+      ],
+      "en": [
+        "Browse the Erasmus Mundus catalogue",
+        "Shortlist Master's that fit your profile",
+        "Prepare each consortium's required file",
+        "Apply before the scholarship deadline",
+        "Wait for results (main or reserve list)"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Oct. – févr.",
+          "en": "Oct – Feb"
+        },
+        "what": {
+          "fr": "Candidatures",
+          "en": "Applications"
+        }
+      },
+      {
+        "when": {
+          "fr": "Mars – mai",
+          "en": "Mar – May"
+        },
+        "what": {
+          "fr": "Résultats",
+          "en": "Results"
+        }
+      },
+      {
+        "when": {
+          "fr": "Sept.",
+          "en": "Sep"
+        },
+        "what": {
+          "fr": "Début du master",
+          "en": "Master's starts"
+        }
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "commonwealth",
+    "name": "Commonwealth Scholarships",
+    "dest": "europe",
+    "levels": [
+      "master",
+      "phd"
+    ],
+    "coverage": "full",
+    "countries": [
+      "GB"
+    ],
+    "featured": false,
+    "link": "https://cscuk.fcdo.gov.uk/",
+    "country": {
+      "fr": "Royaume-Uni",
+      "en": "United Kingdom"
+    },
+    "funder": {
+      "fr": "Commonwealth Scholarship Commission au Royaume-Uni (FCDO)",
+      "en": "Commonwealth Scholarship Commission in the UK (FCDO)"
+    },
+    "tagline": {
+      "fr": "Master ou doctorat au Royaume-Uni pour les citoyens de pays du Commonwealth éligibles.",
+      "en": "A Master's or PhD in the UK for citizens of eligible Commonwealth countries."
+    },
+    "route": {
+      "fr": "Nomination par une agence nationale ou une université, puis portail CSC",
+      "en": "Nomination by a national agency or university, then the CSC portal"
+    },
+    "window": {
+      "fr": "Généralement à l'automne, selon l'agence de nomination",
+      "en": "Usually in autumn, depending on the nominating body"
+    },
+    "overview": {
+      "fr": "Les bourses du Commonwealth financent des études au Royaume-Uni pour des candidats capables de contribuer au développement de leur pays. Attention : l'agence de nomination de votre pays a souvent sa propre date limite, plus précoce.",
+      "en": "Commonwealth Scholarships fund UK study for people who can contribute to their country's development. Note: your country's nominating agency often has its own, earlier deadline."
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité",
+        "Allocation mensuelle",
+        "Billet d'avion aller-retour",
+        "Allocations complémentaires selon la situation"
+      ],
+      "en": [
+        "Tuition fees",
+        "Monthly stipend",
+        "Return airfare",
+        "Extra allowances depending on circumstances"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Citoyen d'un pays du Commonwealth éligible",
+        "Résider dans ce pays",
+        "Diplôme de premier cycle de bon niveau",
+        "Ne pas pouvoir financer seul ses études au Royaume-Uni"
+      ],
+      "en": [
+        "Citizen of an eligible Commonwealth country",
+        "Resident in that country",
+        "A good undergraduate degree",
+        "Unable to fund UK study yourself"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Identifier l'agence de nomination de votre pays",
+        "Respecter sa procédure et son calendrier",
+        "Compléter la candidature sur le portail CSC",
+        "Sélection par l'agence puis par la commission"
+      ],
+      "en": [
+        "Find your country's nominating agency",
+        "Follow its process and calendar",
+        "Complete the application on the CSC portal",
+        "Selection by the agency, then by the Commission"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Sept. – déc.",
+          "en": "Sep – Dec"
+        },
+        "what": {
+          "fr": "Candidatures et nominations",
+          "en": "Applications and nominations"
+        }
+      },
+      {
+        "when": {
+          "fr": "Printemps",
+          "en": "Spring"
+        },
+        "what": {
+          "fr": "Sélection",
+          "en": "Selection"
+        }
+      },
+      {
+        "when": {
+          "fr": "Sept.",
+          "en": "Sep"
+        },
+        "what": {
+          "fr": "Départ",
+          "en": "Departure"
+        }
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "mastercard-foundation",
+    "name": "Mastercard Foundation Scholars Program",
+    "dest": "multi",
+    "levels": [
+      "bachelor",
+      "master"
+    ],
+    "coverage": "full",
+    "countries": [],
+    "featured": true,
+    "link": "https://mastercardfdn.org/",
+    "country": {
+      "fr": "Universités partenaires en Afrique et ailleurs",
+      "en": "Partner universities in Africa and beyond"
+    },
+    "funder": {
+      "fr": "Fondation Mastercard",
+      "en": "Mastercard Foundation"
+    },
+    "tagline": {
+      "fr": "Des programmes pour les jeunes talents africains, avec des candidatures organisées par les universités partenaires.",
+      "en": "Programmes for talented young Africans, with applications run by partner universities."
+    },
+    "route": {
+      "fr": "Directement auprès de chaque université partenaire",
+      "en": "Directly with each partner university"
+    },
+    "window": {
+      "fr": "Variable selon l'université partenaire",
+      "en": "Varies by partner university"
+    },
+    "overview": {
+      "fr": "Le programme soutient des jeunes Africains au fort potentiel académique et aux ressources financières limitées. Au-delà du financement, il mise sur le leadership, le mentorat et l'engagement à contribuer au développement de sa communauté.",
+      "en": "The programme supports young Africans with strong academic potential and limited financial means. Beyond funding, it focuses on leadership, mentoring and a commitment to give back to your community."
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité",
+        "Logement et repas",
+        "Livres et fournitures",
+        "Allocation et frais de voyage",
+        "Programmes de leadership et de mentorat"
+      ],
+      "en": [
+        "Tuition",
+        "Accommodation and meals",
+        "Books and supplies",
+        "Stipend and travel",
+        "Leadership and mentoring programmes"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Être citoyen d'un pays africain (selon l'université)",
+        "Excellent potentiel académique",
+        "Ressources financières limitées",
+        "Engagement communautaire démontré"
+      ],
+      "en": [
+        "Be a citizen of an African country (depending on the university)",
+        "Strong academic potential",
+        "Limited financial resources",
+        "Demonstrated community involvement"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Consulter la liste des universités partenaires",
+        "Choisir une formation et vérifier les critères",
+        "Candidater à l'université et à la bourse",
+        "Entretien éventuel et sélection"
+      ],
+      "en": [
+        "Check the list of partner universities",
+        "Choose a programme and check criteria",
+        "Apply to the university and the scholarship",
+        "Possible interview and selection"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Selon l'université",
+          "en": "Per university"
+        },
+        "what": {
+          "fr": "Candidatures",
+          "en": "Applications"
+        }
+      },
+      {
+        "when": {
+          "fr": "Quelques mois après",
+          "en": "A few months later"
+        },
+        "what": {
+          "fr": "Sélection",
+          "en": "Selection"
+        }
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "mext",
+    "name": "MEXT Japanese Government Scholarship",
+    "dest": "asia",
+    "levels": [
+      "bachelor",
+      "master",
+      "phd"
+    ],
+    "coverage": "full",
+    "countries": [
+      "JP"
+    ],
+    "featured": false,
+    "link": "https://www.studyinjapan.go.jp/en/",
+    "country": {
+      "fr": "Japon",
+      "en": "Japan"
+    },
+    "funder": {
+      "fr": "Ministère japonais de l'Éducation (MEXT)",
+      "en": "Japanese Ministry of Education (MEXT)"
+    },
+    "tagline": {
+      "fr": "Étudier au Japon avec un financement du gouvernement japonais, de la licence au doctorat.",
+      "en": "Study in Japan with Japanese government funding, from Bachelor's to PhD."
+    },
+    "route": {
+      "fr": "Recommandation de l'ambassade du Japon ou d'une université japonaise",
+      "en": "Japanese Embassy recommendation or university recommendation"
+    },
+    "window": {
+      "fr": "Voie ambassade : en général au printemps",
+      "en": "Embassy track: usually in spring"
+    },
+    "overview": {
+      "fr": "Aussi appelée Monbukagakusho, la bourse MEXT finance plusieurs catégories d'étudiants : premier cycle, étudiants chercheurs (master et doctorat), formation des enseignants… La voie la plus courante passe par l'ambassade du Japon de votre pays.",
+      "en": "Also known as Monbukagakusho, MEXT funds several student categories: undergraduates, research students (Master's and PhD), teacher training and more. The most common route is through the Japanese Embassy in your country."
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité",
+        "Allocation mensuelle",
+        "Billet d'avion aller-retour",
+        "Formation en japonais selon la catégorie"
+      ],
+      "en": [
+        "Tuition",
+        "Monthly stipend",
+        "Return airfare",
+        "Japanese language training depending on category"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Nationalité d'un pays ayant des relations diplomatiques avec le Japon",
+        "Limites d'âge selon la catégorie",
+        "Niveau académique exigé selon la catégorie",
+        "Volonté d'apprendre le japonais"
+      ],
+      "en": [
+        "Citizen of a country with diplomatic ties to Japan",
+        "Age limits depending on category",
+        "Academic requirements depending on category",
+        "Willingness to learn Japanese"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Consulter l'appel de l'ambassade du Japon de votre pays",
+        "Préparer le plan d'études ou de recherche",
+        "Examen du dossier et épreuves écrites",
+        "Entretien",
+        "Recommandation à MEXT et placement universitaire"
+      ],
+      "en": [
+        "Check the Japanese Embassy call in your country",
+        "Prepare your study or research plan",
+        "Document screening and written exams",
+        "Interview",
+        "Recommendation to MEXT and university placement"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Printemps",
+          "en": "Spring"
+        },
+        "what": {
+          "fr": "Candidatures (voie ambassade)",
+          "en": "Applications (embassy track)"
+        }
+      },
+      {
+        "when": {
+          "fr": "Été",
+          "en": "Summer"
+        },
+        "what": {
+          "fr": "Examens et entretiens",
+          "en": "Exams and interviews"
+        }
+      },
+      {
+        "when": {
+          "fr": "Avril ou oct. suivant",
+          "en": "Following Apr or Oct"
+        },
+        "what": {
+          "fr": "Arrivée au Japon",
+          "en": "Arrival in Japan"
+        }
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "csc",
+    "name": "Chinese Government Scholarship (CSC)",
+    "dest": "asia",
+    "levels": [
+      "bachelor",
+      "master",
+      "phd"
+    ],
+    "coverage": "full",
+    "countries": [
+      "CN"
+    ],
+    "featured": false,
+    "link": "https://www.campuschina.org/",
+    "country": {
+      "fr": "Chine",
+      "en": "China"
+    },
+    "funder": {
+      "fr": "Conseil chinois des bourses (CSC)",
+      "en": "China Scholarship Council (CSC)"
+    },
+    "tagline": {
+      "fr": "Étudier en Chine avec frais de scolarité, logement et allocation pris en charge.",
+      "en": "Study in China with tuition, housing and a stipend covered."
+    },
+    "route": {
+      "fr": "Ambassade de Chine (type A) ou université chinoise (type B)",
+      "en": "Chinese Embassy (Type A) or Chinese university (Type B)"
+    },
+    "window": {
+      "fr": "En général entre janvier et avril",
+      "en": "Usually January to April"
+    },
+    "overview": {
+      "fr": "La bourse du gouvernement chinois est accordée aux étudiants internationaux pour la licence, le master et le doctorat. Deux voies existent : via l'ambassade de Chine de votre pays, ou directement via une université chinoise habilitée.",
+      "en": "The Chinese Government Scholarship is awarded to international students for Bachelor's, Master's and PhD study. There are two routes: through the Chinese Embassy in your country, or directly through an authorised Chinese university."
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité",
+        "Logement sur le campus",
+        "Allocation mensuelle",
+        "Assurance médicale"
+      ],
+      "en": [
+        "Tuition",
+        "On-campus housing",
+        "Monthly stipend",
+        "Medical insurance"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Nationalité non chinoise et bonne santé",
+        "Diplôme requis pour le niveau visé",
+        "Limites d'âge selon le niveau",
+        "Lettre d'acceptation préalable souvent appréciée"
+      ],
+      "en": [
+        "Non-Chinese citizen in good health",
+        "Required degree for the target level",
+        "Age limits by level",
+        "A pre-admission letter often helps"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Choisir la voie (ambassade ou université)",
+        "Créer un compte sur la plateforme Campus China",
+        "Préparer plan d'études, recommandations et certificat médical",
+        "Soumettre en ligne et auprès de l'agence de dépôt",
+        "Résultats et visa"
+      ],
+      "en": [
+        "Choose the route (embassy or university)",
+        "Create an account on the Campus China platform",
+        "Prepare study plan, recommendations and medical form",
+        "Submit online and to the receiving agency",
+        "Results and visa"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Janv. – avr.",
+          "en": "Jan – Apr"
+        },
+        "what": {
+          "fr": "Candidatures",
+          "en": "Applications"
+        }
+      },
+      {
+        "when": {
+          "fr": "Juin – août",
+          "en": "Jun – Aug"
+        },
+        "what": {
+          "fr": "Résultats",
+          "en": "Results"
+        }
+      },
+      {
+        "when": {
+          "fr": "Sept.",
+          "en": "Sep"
+        },
+        "what": {
+          "fr": "Arrivée en Chine",
+          "en": "Arrival in China"
+        }
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "gks",
+    "name": "Global Korea Scholarship (GKS)",
+    "dest": "asia",
+    "levels": [
+      "bachelor",
+      "master",
+      "phd"
+    ],
+    "coverage": "full",
+    "countries": [
+      "KR"
+    ],
+    "featured": false,
+    "link": "https://www.studyinkorea.go.kr/",
+    "country": {
+      "fr": "Corée du Sud",
+      "en": "South Korea"
+    },
+    "funder": {
+      "fr": "Gouvernement coréen (NIIED)",
+      "en": "Korean Government (NIIED)"
+    },
+    "tagline": {
+      "fr": "Licence, master ou doctorat en Corée, avec une année de coréen pour préparer la formation.",
+      "en": "Bachelor's, Master's or PhD in Korea, with a year of Korean to prepare."
+    },
+    "route": {
+      "fr": "Voie ambassade ou voie université",
+      "en": "Embassy track or university track"
+    },
+    "window": {
+      "fr": "Master/doctorat : vers février–mars ; licence : vers septembre–octobre",
+      "en": "Graduate: around Feb–Mar; undergraduate: around Sep–Oct"
+    },
+    "overview": {
+      "fr": "La GKS finance des études complètes en Corée. Les lauréats suivent d'abord un an de cours de coréen, sauf exemption selon leur niveau. Vous candidatez par l'ambassade de Corée de votre pays ou directement auprès d'une université désignée.",
+      "en": "GKS funds full degrees in Korea. Scholars first take a year of Korean, unless exempt based on their level. You apply through the Korean Embassy in your country or directly to a designated university."
+    },
+    "benefits": {
+      "fr": [
+        "Billet d'avion",
+        "Allocation mensuelle",
+        "Frais de scolarité",
+        "Année de cours de coréen",
+        "Allocation d'installation et assurance"
+      ],
+      "en": [
+        "Airfare",
+        "Monthly allowance",
+        "Tuition",
+        "Year of Korean language training",
+        "Settlement allowance and insurance"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Nationalité d'un pays partenaire, non coréenne",
+        "Limites d'âge selon le programme",
+        "Moyenne minimale exigée",
+        "Bonne santé"
+      ],
+      "en": [
+        "Citizen of a partner country, not Korean",
+        "Age limits by programme",
+        "Minimum grade average required",
+        "Good health"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Lire l'appel GKS de l'année",
+        "Choisir la voie et jusqu'à trois universités",
+        "Préparer lettre de motivation, plan d'études et recommandations",
+        "Sélection en plusieurs étapes",
+        "Année de langue puis formation"
+      ],
+      "en": [
+        "Read the year's GKS call",
+        "Pick your track and up to three universities",
+        "Prepare personal statement, study plan and recommendations",
+        "Multi-stage selection",
+        "Language year, then degree"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Févr. – mars",
+          "en": "Feb – Mar"
+        },
+        "what": {
+          "fr": "Candidatures master/doctorat",
+          "en": "Graduate applications"
+        }
+      },
+      {
+        "when": {
+          "fr": "Sept. – oct.",
+          "en": "Sep – Oct"
+        },
+        "what": {
+          "fr": "Candidatures licence",
+          "en": "Undergraduate applications"
+        }
+      },
+      {
+        "when": {
+          "fr": "Sept. ou mars",
+          "en": "Sep or Mar"
+        },
+        "what": {
+          "fr": "Arrivée en Corée",
+          "en": "Arrival in Korea"
+        }
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "turkiye-burslari",
+    "name": "Türkiye Scholarships",
+    "dest": "europe",
+    "levels": [
+      "bachelor",
+      "master",
+      "phd"
+    ],
+    "coverage": "full",
+    "countries": [
+      "TR"
+    ],
+    "featured": false,
+    "link": "https://www.turkiyeburslari.gov.tr/",
+    "country": {
+      "fr": "Turquie",
+      "en": "Türkiye"
+    },
+    "funder": {
+      "fr": "Gouvernement turc",
+      "en": "Government of Türkiye"
+    },
+    "tagline": {
+      "fr": "Un programme qui associe financement des études et placement universitaire en Turquie, de la licence au doctorat.",
+      "en": "A programme combining funding and university placement in Türkiye, from Bachelor's to PhD."
+    },
+    "route": {
+      "fr": "Candidature directe en ligne",
+      "en": "Direct online application"
+    },
+    "window": {
+      "fr": "En général de janvier à février",
+      "en": "Usually January to February"
+    },
+    "overview": {
+      "fr": "Türkiye Bursları prend en charge l'ensemble du séjour et place les lauréats dans une université turque parmi leurs choix. Les lauréats suivent une année de turc avant leur formation.",
+      "en": "Türkiye Scholarships covers the whole stay and places scholars at a Turkish university from their list of choices. Scholars take a year of Turkish before their degree."
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité",
+        "Allocation mensuelle",
+        "Logement",
+        "Assurance santé",
+        "Billet d'avion aller-retour",
+        "Année de cours de turc"
+      ],
+      "en": [
+        "Tuition",
+        "Monthly stipend",
+        "Accommodation",
+        "Health insurance",
+        "Return flight",
+        "Year of Turkish language classes"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Nationalité non turque",
+        "Limites d'âge selon le niveau",
+        "Moyenne minimale selon le niveau",
+        "Ne pas être déjà inscrit au même niveau en Turquie"
+      ],
+      "en": [
+        "Non-Turkish citizen",
+        "Age limits by level",
+        "Minimum grade average by level",
+        "Not already enrolled at the same level in Türkiye"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Créer un compte sur le portail officiel",
+        "Choisir jusqu'à 12 formations",
+        "Rédiger la lettre de motivation et charger les documents",
+        "Entretien pour les présélectionnés",
+        "Placement et préparation du départ"
+      ],
+      "en": [
+        "Create an account on the official portal",
+        "Choose up to 12 programmes",
+        "Write the motivation letter and upload documents",
+        "Interview for shortlisted candidates",
+        "Placement and departure"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Janv. – févr.",
+          "en": "Jan – Feb"
+        },
+        "what": {
+          "fr": "Candidatures en ligne",
+          "en": "Online applications"
+        }
+      },
+      {
+        "when": {
+          "fr": "Avr. – juin",
+          "en": "Apr – Jun"
+        },
+        "what": {
+          "fr": "Entretiens",
+          "en": "Interviews"
+        }
+      },
+      {
+        "when": {
+          "fr": "Juil. – août",
+          "en": "Jul – Aug"
+        },
+        "what": {
+          "fr": "Résultats et placement",
+          "en": "Results and placement"
+        }
+      }
+    ],
+    "faq": []
+  },
+  {
+    "id": "lester-pearson",
+    "name": "Lester B. Pearson International Scholarship",
+    "dest": "north-america",
+    "levels": [
+      "bachelor"
+    ],
+    "coverage": "full",
+    "countries": [
+      "CA"
+    ],
+    "featured": false,
+    "link": "https://future.utoronto.ca/pearson/",
+    "country": {
+      "fr": "Canada (Université de Toronto)",
+      "en": "Canada (University of Toronto)"
+    },
+    "funder": {
+      "fr": "Université de Toronto",
+      "en": "University of Toronto"
+    },
+    "tagline": {
+      "fr": "Quatre années de licence entièrement financées à Toronto pour des élèves internationaux exceptionnels.",
+      "en": "Four fully funded undergraduate years in Toronto for outstanding international students."
+    },
+    "route": {
+      "fr": "Nomination par votre lycée, puis candidature à l'université",
+      "en": "Nomination by your school, then university application"
+    },
+    "window": {
+      "fr": "Nomination et candidature à l'automne de la dernière année de lycée",
+      "en": "Nomination and application in the autumn of your final school year"
+    },
+    "overview": {
+      "fr": "La bourse Pearson récompense l'excellence scolaire, la créativité et le leadership. Votre établissement secondaire doit d'abord vous nominer ; vous candidatez ensuite à l'Université de Toronto avant la date limite.",
+      "en": "The Pearson scholarship rewards academic excellence, creativity and leadership. Your secondary school must first nominate you; you then apply to the University of Toronto before the deadline."
+    },
+    "benefits": {
+      "fr": [
+        "Frais de scolarité pendant quatre ans",
+        "Livres et frais annexes",
+        "Logement en résidence"
+      ],
+      "en": [
+        "Tuition for four years",
+        "Books and incidental fees",
+        "Residence support"
+      ]
+    },
+    "eligibility": {
+      "fr": [
+        "Être élève international en dernière année de lycée",
+        "Être nominé par son établissement",
+        "Excellence académique et leadership"
+      ],
+      "en": [
+        "Be an international student in your final school year",
+        "Be nominated by your school",
+        "Academic excellence and leadership"
+      ]
+    },
+    "steps": {
+      "fr": [
+        "Parler à votre conseiller d'orientation",
+        "Obtenir la nomination de votre lycée",
+        "Candidater à l'Université de Toronto",
+        "Compléter le dossier Pearson"
+      ],
+      "en": [
+        "Talk to your school counsellor",
+        "Get your school's nomination",
+        "Apply to the University of Toronto",
+        "Complete the Pearson file"
+      ]
+    },
+    "timeline": [
+      {
+        "when": {
+          "fr": "Oct. – nov.",
+          "en": "Oct – Nov"
+        },
+        "what": {
+          "fr": "Nomination et candidature",
+          "en": "Nomination and application"
+        }
+      },
+      {
+        "when": {
+          "fr": "Printemps",
+          "en": "Spring"
+        },
+        "what": {
+          "fr": "Résultats",
+          "en": "Results"
+        }
+      },
+      {
+        "when": {
+          "fr": "Sept.",
+          "en": "Sep"
+        },
+        "what": {
+          "fr": "Rentrée",
+          "en": "Start of studies"
+        }
+      }
+    ],
+    "faq": []
+  }
+]
