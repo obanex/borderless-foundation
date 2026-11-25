@@ -326,7 +326,7 @@
       '<li><a href="' + esc(CONFIG.padlet) + '" target="_blank" rel="noopener">Padlet</a></li>' +
       '<li><a href="#/contact">' + t("nav.contact") + "</a></li></ul></div>" +
       "</div>" +
-      '<div class="footer-bottom"><span>© ' + year + " Borderless Foundation. " + t("footer.rights") + "</span><span>" + t("footer.part") + ' · <a href="admin/" rel="nofollow">Admin</a></span></div>' +
+      '<div class="footer-bottom"><span>© ' + year + " Borderless Foundation. " + t("footer.rights") + "</span><span>" + t("footer.part") + "</span></div>" +
       "</div>";
   }
 
