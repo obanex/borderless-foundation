@@ -1,7 +1,8 @@
 /*
  * Borderless Foundation — single-page app core and Foundation pages.
  * Hash routes: #/  #/growth[/id]  #/services  #/ecosystem  #/advertise  #/contact
- * The Borderless Opportunities section (#/opportunities/...) lives in opportunities.js.
+ * The Borderless Opportunities section (#/opportunities/...) lives in opportunities.js,
+ * the translation & notarization service (#/translation) in translation.js.
  */
 (function () {
   "use strict";
@@ -69,8 +70,14 @@
     return d.toLocaleDateString(state.lang === "fr" ? "fr-FR" : "en-GB", { day: "numeric", month: "long", year: "numeric" });
   }
 
+  // A link from Settings; empty links lead to the Contact page.
   function link(key) {
-    return CONFIG[key] || CONFIG.linktree;
+    return CONFIG[key] || "#/contact";
+  }
+
+  // Opens links to other websites in a new tab; links inside the site stay in the same tab.
+  function ext(href) {
+    return /^https?:/i.test(href || "") ? ' target="_blank" rel="noopener"' : "";
   }
 
   /* ---------- Icons (line style, rounded) ---------- */
@@ -90,6 +97,7 @@
     chat: '<path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/>',
     mail: '<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/>',
     download: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>',
+    upload: '<path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/>',
     users: '<path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>',
     compass: '<circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>',
     pen: '<path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="M2 2l7.586 7.586"/><circle cx="11" cy="11" r="2"/>',
@@ -208,7 +216,7 @@
   }
 
   function whatsappButton(cls) {
-    return '<a class="btn btn--gold ' + (cls || "") + '" href="' + esc(link("whatsappCommunity")) + '" target="_blank" rel="noopener">' +
+    return '<a class="btn btn--gold ' + (cls || "") + '" href="' + esc(link("whatsappCommunity")) + '"' + ext(link("whatsappCommunity")) + ">" +
       icon("chat") + t("hero.cta.whatsapp") + "</a>";
   }
 
@@ -248,6 +256,7 @@
     ["opportunities", "#/opportunities"],
     ["growth", "#/growth"],
     ["services", "#/services"],
+    ["translation", "#/translation"],
     ["ecosystem", "#/ecosystem"],
     ["advertise", "#/advertise"],
     ["contact", "#/contact"]
@@ -263,10 +272,11 @@
       '<div class="lang-switch" role="group" aria-label="' + t("a11y.lang") + '">' +
       LANGS.map((l) => '<button type="button" data-lang="' + l + '" aria-pressed="' + (l === state.lang) + '" lang="' + l + '">' + l.toUpperCase() + "</button>").join("") +
       "</div>" +
-      '<a class="btn btn--gold btn--sm header-cta" href="' + esc(link("whatsappCommunity")) + '" target="_blank" rel="noopener">' + icon("chat") + t("header.cta") + "</a>" +
+      '<a class="btn btn--gold btn--sm header-cta" href="' + esc(link("whatsappCommunity")) + '"' + ext(link("whatsappCommunity")) + ">" + icon("chat") + t("header.cta") + "</a>" +
       '<button type="button" class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="' + t("a11y.menu") + '">' + icon("menu") + "</button>" +
       "</div></div>";
 
+    fitHeader();
     $header.querySelectorAll("[data-lang]").forEach((btn) => btn.addEventListener("click", () => setLang(btn.dataset.lang)));
     const toggle = $header.querySelector(".menu-toggle");
     const nav = $header.querySelector(".main-nav");
@@ -275,6 +285,18 @@
       toggle.setAttribute("aria-expanded", String(open));
       toggle.innerHTML = icon(open ? "close" : "menu");
     });
+  }
+
+  // When the full menu doesn't fit on one line (whatever the language or label length),
+  // first hide the header's WhatsApp button, then switch to the compact (☰) menu.
+  function fitHeader() {
+    const inner = $header.querySelector(".header-inner");
+    const overflows = () => inner.scrollWidth > inner.clientWidth;
+    $header.classList.remove("is-compact", "no-cta");
+    if (!overflows()) { closeMenu(); return; }
+    $header.classList.add("no-cta");
+    if (!overflows()) { closeMenu(); return; }
+    $header.classList.replace("no-cta", "is-compact");
   }
 
   function closeMenu() {
@@ -295,12 +317,10 @@
   }
 
   function socialLinks() {
-    const list = [["linkedin", "LinkedIn"], ["facebook", "Facebook"], ["instagram", "Instagram"], ["youtube", "YouTube"]]
-      .filter(([k]) => CONFIG[k]);
-    list.push(["linktree", "Linktree"]);
-    return list.map(([k, label]) =>
-      '<a href="' + esc(CONFIG[k]) + '" target="_blank" rel="noopener" aria-label="' + label + '">' + icon(k === "linktree" ? "link" : k) + "</a>"
-    ).join("");
+    return [["linkedin", "LinkedIn"], ["facebook", "Facebook"], ["instagram", "Instagram"], ["youtube", "YouTube"]]
+      .filter(([k]) => CONFIG[k])
+      .map(([k, label]) => '<a href="' + esc(CONFIG[k]) + '" target="_blank" rel="noopener" aria-label="' + label + '">' + icon(k) + "</a>")
+      .join("");
   }
 
   function renderFooter() {
@@ -317,13 +337,13 @@
       "<div><h4>" + t("footer.foundation") + "</h4><ul>" +
       '<li><a href="#/ecosystem">' + t("nav.ecosystem") + "</a></li>" +
       '<li><a href="#/services">' + t("nav.services") + "</a></li>" +
+      '<li><a href="#/translation">' + t("tr.footer") + "</a></li>" +
       '<li><a href="#/growth">' + t("nav.growth") + "</a></li>" +
       '<li><a href="#/ecosystem?section=ambassador">Borderless Ambassador</a></li>' +
       '<li><a href="#/advertise">' + t("nav.advertise") + "</a></li></ul></div>" +
       "<div><h4>" + t("footer.community") + "</h4><ul>" +
-      '<li><a href="' + esc(link("whatsappCommunity")) + '" target="_blank" rel="noopener">WhatsApp</a></li>' +
-      '<li><a href="' + esc(CONFIG.linktree) + '" target="_blank" rel="noopener">Linktree</a></li>' +
-      '<li><a href="' + esc(CONFIG.padlet) + '" target="_blank" rel="noopener">Padlet</a></li>' +
+      (CONFIG.whatsappCommunity ? '<li><a href="' + esc(CONFIG.whatsappCommunity) + '" target="_blank" rel="noopener">' + t("contact.wa.community") + "</a></li>" : "") +
+      (CONFIG.whatsappChannel ? '<li><a href="' + esc(CONFIG.whatsappChannel) + '" target="_blank" rel="noopener">' + t("footer.channel") + "</a></li>" : "") +
       '<li><a href="#/contact">' + t("nav.contact") + "</a></li></ul></div>" +
       "</div>" +
       '<div class="footer-bottom"><span>© ' + year + " Borderless Foundation. " + t("footer.rights") + "</span><span>" + t("footer.part") + "</span></div>" +
@@ -499,6 +519,9 @@
       "<div><h3>" + t("svc.process.title") + '</h3><div class="grid" style="margin-top:16px">' +
       [1, 2, 3].map((i) => '<div class="card" style="flex-direction:row;gap:16px;align-items:center"><span class="icon-bubble' + (i === 3 ? " icon-bubble--gold" : "") + '"><b>' + i + '</b></span><p class="mb-0" style="color:var(--text)">' + t("svc.process." + i) + "</p></div>").join("") +
       "</div></div></div></section>" +
+      '<section class="section--tight" style="padding-top:clamp(56px,8vw,96px)"><div class="container"><div class="cta-band"><div><div class="eyebrow">' + t("tr.eyebrow") + "</div>" +
+      "<h2>" + t("tr.teaser.title") + "</h2><p>" + t("tr.teaser.text") + "</p></div>" +
+      '<div class="cta-actions"><a class="btn btn--gold" href="#/translation">' + t("tr.teaser.cta") + icon("arrow") + "</a></div></div></div></section>" +
       '<section class="section" id="svc-form"><div class="container" style="max-width:860px">' +
       '<div class="card form-card"><h2>' + t("svc.form.title") + '</h2><p class="muted">' + t("svc.form.sub") + "</p>" +
       '<form data-form="services" novalidate><div class="form-grid">' +
@@ -614,9 +637,11 @@
     const subjects = ["general", "services", "ambassador", "story", "partner", "support", "other"];
     const pre = subjects.includes(query.get("subject")) ? query.get("subject") : "";
     const row = (href, ic, title, sub, gold) =>
-      '<li><a href="' + esc(href) + '" target="_blank" rel="noopener"><span class="icon-bubble' + (gold ? " icon-bubble--gold" : "") + '">' + icon(ic) + "</span>" +
+      '<li><a href="' + esc(href) + '"' + ext(href) + '><span class="icon-bubble' + (gold ? " icon-bubble--gold" : "") + '">' + icon(ic) + "</span>" +
       "<span>" + title + "<small>" + sub + "</small></span>" + icon("external", "arrow") + "</a></li>";
     const socials = [["linkedin", "LinkedIn"], ["facebook", "Facebook"], ["instagram", "Instagram"], ["youtube", "YouTube"]].filter(([k]) => CONFIG[k]);
+
+    const community = [["whatsappCommunity", "chat", "contact.wa.community", true], ["whatsappChannel", "zap", "contact.wa.channel", false]].filter(([k]) => CONFIG[k]);
 
     return pageHero(t("contact.title"), t("contact.sub")) +
       '<section class="section--tight" style="padding-top:0;padding-bottom:clamp(56px,8vw,96px)"><div class="container split">' +
@@ -628,12 +653,9 @@
       '<div class="field full"><label for="message">' + t("contact.message") + ' *</label><textarea class="textarea" id="message" name="message" required></textarea></div>' +
       formFooter(t("contact.submit")) +
       "</div></form></div>" +
-      "<div><h3>" + t("contact.community") + '</h3><ul class="contact-links" style="margin:14px 0 28px">' +
-      row(link("whatsappCommunity"), "chat", t("contact.wa.community"), t("contact.wa.community.sub"), true) +
-      row(link("whatsappChannel"), "zap", t("contact.wa.channel"), t("contact.wa.channel.sub")) +
-      row(CONFIG.linktree, "link", "Linktree", t("contact.linktree.sub")) +
-      row(CONFIG.padlet, "layout", "Padlet", t("contact.padlet.sub")) +
-      "</ul>" +
+      "<div>" +
+      (community.length ? "<h3>" + t("contact.community") + '</h3><ul class="contact-links" style="margin:14px 0 28px">' +
+        community.map(([k, ic, key, gold]) => row(CONFIG[k], ic, t(key), t(key + ".sub"), gold)).join("") + "</ul>" : "") +
       (socials.length ? "<h3>" + t("contact.social") + '</h3><ul class="contact-links" style="margin:14px 0 28px">' +
         socials.map(([k, label]) => row(CONFIG[k], k, label, "Borderless Foundation")).join("") + "</ul>" : "") +
       (CONFIG.email ? "<h3>" + t("contact.official") + '</h3><ul class="contact-links" style="margin-top:14px">' +
@@ -652,22 +674,11 @@
 
     $main.querySelectorAll("form[data-form]").forEach((form) => form.addEventListener("submit", async (e) => {
       e.preventDefault();
-      const status = form.querySelector(".form-status");
-      const show = (kind, html) => {
-        status.className = "full form-status is-visible form-status--" + kind;
-        status.innerHTML = html;
-      };
+      const show = formStatus(form);
       if (!form.checkValidity()) { form.reportValidity(); return; }
       if (form.website && form.website.value) return; // spam trap
 
-      const fields = [];
-      form.querySelectorAll("[name]").forEach((el) => {
-        if (el.name === "website" || !el.value) return;
-        const label = form.querySelector('label[for="' + el.id + '"]');
-        const value = el.tagName === "SELECT" ? el.options[el.selectedIndex].text : el.value;
-        fields.push({ name: el.name, label: label ? label.textContent.replace(" *", "") : el.name, value });
-      });
-      const linktreeLink = ' <a href="' + esc(CONFIG.linktree) + '" target="_blank" rel="noopener">Linktree</a>';
+      const fields = formFields(form);
 
       if (CONFIG.formEndpoint) {
         const btn = form.querySelector('[type="submit"]');
@@ -685,19 +696,56 @@
           form.reset();
           show("ok", t("form.ok"));
         } catch (err) {
-          show("error", t("form.error") + linktreeLink);
+          show("error", t("form.error") + reachUs());
         } finally {
           btn.disabled = false;
         }
       } else if (CONFIG.email) {
-        const subject = "[Borderless Foundation] " + (form.closest(".card").querySelector("h2, h3") || {}).textContent;
-        const body = fields.map((f) => f.label + " : " + f.value).join("\n\n");
-        location.href = "mailto:" + CONFIG.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+        mailForm(form, fields);
         show("info", t("form.mailto"));
       } else {
-        show("info", t("form.offline") + linktreeLink);
+        show("info", t("form.offline") + reachUs());
       }
     }));
+  }
+
+  // Shows a message under a form; returns show(kind, html) with kind "ok", "info" or "error".
+  function formStatus(form) {
+    const status = form.querySelector(".form-status");
+    return (kind, html) => {
+      status.className = "full form-status is-visible form-status--" + kind;
+      status.innerHTML = html;
+    };
+  }
+
+  // The filled-in fields of a form as [{ name, label, value }], using the visible text of choices.
+  function formFields(form) {
+    const fields = [];
+    form.querySelectorAll("[name]").forEach((el) => {
+      if (el.name === "website" || el.type === "file" || !el.value) return;
+      if ((el.type === "checkbox" || el.type === "radio") && !el.checked) return;
+      const label = el.dataset.label || (form.querySelector('label[for="' + el.id + '"]') || {}).textContent || el.name;
+      const value = el.tagName === "SELECT" ? el.options[el.selectedIndex].text : el.value;
+      const same = fields.find((f) => f.name === el.name);
+      if (same) same.value += ", " + value;
+      else fields.push({ name: el.name, label: label.replace(" *", ""), value });
+    });
+    return fields;
+  }
+
+  // Opens the visitor's e-mail app with the form content ready to send.
+  function mailForm(form, fields, extra) {
+    const subject = "[Borderless Foundation] " + (form.closest(".card").querySelector("h2, h3") || {}).textContent;
+    const body = fields.map((f) => f.label + " : " + f.value).join("\n\n") + (extra ? "\n\n" + extra : "");
+    location.href = "mailto:" + CONFIG.email + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  }
+
+  // Other ways to reach the team when a form can't be sent.
+  function reachUs() {
+    const ways = [];
+    if (CONFIG.whatsappCommunity) ways.push('<a href="' + esc(CONFIG.whatsappCommunity) + '" target="_blank" rel="noopener">WhatsApp</a>');
+    if (CONFIG.email) ways.push('<a href="mailto:' + esc(CONFIG.email) + '">' + esc(CONFIG.email) + "</a>");
+    return ways.length ? " " + ways.join(" · ") : "";
   }
 
   /* ---------- Router ---------- */
@@ -742,7 +790,7 @@
     if (opts.keepScroll) {
       window.scrollTo({ top: scrollY, behavior: "instant" });
     } else {
-      const section = r.query.get("section") || (key === "services" && r.query.get("service") ? "svc-form" : "");
+      const section = r.query.get("section") || (key === "services" && r.query.get("service") ? "svc-form" : "") || (key === "translation" && (r.query.has("sent") || r.query.get("service")) ? "tr-form" : "");
       const target = section && document.getElementById(section);
       if (target) {
         requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
@@ -777,14 +825,23 @@
     renderFooter();
     render({ initial: true });
     window.addEventListener("hashchange", () => render());
+    // Re-check the menu when the window width changes and once the web font has loaded.
+    let headerWidth = $header.offsetWidth;
+    new ResizeObserver(() => {
+      if ($header.offsetWidth === headerWidth) return;
+      headerWidth = $header.offsetWidth;
+      fitHeader();
+    }).observe($header);
+    if (document.fonts) document.fonts.ready.then(fitHeader);
   }
 
   // Shared toolkit for section modules (see opportunities.js).
   const BF = window.BF = {
-    state, t, L, esc, normalize, matches, fmtDate, link, icon,
+    state, t, L, esc, normalize, matches, fmtDate, link, ext, icon,
     TYPE_ICON, TYPES, REGIONS, LEVELS,
     daysUntil, deadlineBadge, byDeadline,
     callCard, articleCard, adSlot, pageHero, searchBar, field, formFooter, entityName, downloadButton, whatsappButton,
+    formStatus, formFields, mailForm, reachUs,
     routes: ROUTES, render, boot, main: $main
   };
 })();

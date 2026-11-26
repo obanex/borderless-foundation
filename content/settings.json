@@ -1,13 +1,12 @@
 {
   "defaultLang": "en",
-  "linktree": "https://linktr.ee/bea2910",
-  "padlet": "https://padlet.com/borderless_2910/borderless-foundation-46ybqisesroqszt8",
-  "whatsappCommunity": "",
-  "whatsappChannel": "",
-  "linkedin": "",
-  "facebook": "",
-  "instagram": "",
-  "youtube": "",
+  "whatsappCommunity": "https://chat.whatsapp.com/E7R6JSuI8M1HmTKIb2I5eF",
+  "whatsappChannel": "https://www.whatsapp.com/channel/0029VbBjqL44dTnLIbNBM71c",
+  "linkedin": "https://www.linkedin.com/company/borderless-foundation/",
+  "facebook": "https://www.facebook.com/Borderless2910",
+  "instagram": "https://www.instagram.com/_borderless_foundation_/",
+  "youtube": "https://www.youtube.com/@borderless_2910",
   "email": "",
-  "formEndpoint": ""
+  "formEndpoint": "",
+  "translationEndpoint": ""
 }

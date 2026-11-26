@@ -14,14 +14,17 @@ index.html            the website (single page, hash routes like #/opportunities
 assets/load.js        loads content/*.json, then starts the app
 assets/app.js         core + Foundation pages (home, growth, services, ecosystem, advertise, contact)
 assets/opportunities.js  Borderless Opportunities (hub, scholarship guides, open calls, toolkit, laureates, insights, search)
+assets/translation.js  translation & notarization service, with the document upload form
 assets/styles.css     design
 content/              ALL editable content, as JSON (edited from /admin)
   settings.json       links, default language, form service
   text/en.json, fr.json  interface text
-  scholarships.json, calls.json, toolkit.json, laureates.json, articles.json, downloads.json, foundation.json
+  scholarships.json, calls.json, toolkit.json, laureates.json, articles.json, downloads.json, foundation.json, translation.json
 uploads/              files uploaded from the admin
 admin/                the admin app (config.js, schema.js, admin.js, admin.css)
 ```
+
+Translation requests (with their documents) go to `translationEndpoint` in settings.json, falling back to `formEndpoint`. A FormSubmit.co address is posted as a normal multipart form (it e-mails the files as attachments); any other address receives a multipart `fetch`. With neither set, the visitor's e-mail app opens and they attach the files themselves.
 
 The admin signs in with a GitHub fine-grained access key (Contents: read and write on this repository). Each save commits the changed JSON file through the GitHub API, and GitHub Pages redeploys the site automatically.
 

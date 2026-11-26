@@ -62,8 +62,9 @@ The menu on the left lists everything you can change:
 | Free downloads | Files on the Personal growth page |
 | Ecosystem entities | The Borderless entities (Opportunities, Consulting…) |
 | Ambassador programme | Ambassador benefits and career path |
+| Translation & notarization | The services, documents, languages and questions on the translation page |
 | Page text | Every heading, button and sentence on the site |
-| Settings & links | WhatsApp, social media, e-mail and other links |
+| Settings & links | WhatsApp, social media, e-mail, and where form messages and translation requests are sent |
 
 **To add something:** open a section → **Add …** → fill in the form → **Save & publish**.
 
@@ -82,19 +83,32 @@ The menu on the left lists everything you can change:
 - **Files:** use **Upload file** to add a PDF or image. Then press **Save & publish**.
 - **Page text:** use the search box to find the words you want to change. Keep words in `{curly brackets}` as they are; they're filled in automatically.
 
-## 5. When do changes appear?
+## 5. Receiving translation requests (one time only)
+
+On the **Translation & notarization** page, visitors fill in a form and upload their documents. To receive them, the form needs a service that accepts files. [FormSubmit](https://formsubmit.co) is free and e-mails you each request with the documents attached (up to 10 MB in total):
+
+1. In the admin, open **Settings & links**.
+2. In **Translation form service**, type `https://formsubmit.co/` followed by the e-mail address that should receive the requests, e.g. `https://formsubmit.co/translations@yourdomain.com`. Then **Save & publish**.
+3. About a minute later, send yourself a test request from the website. FormSubmit e-mails that address once to ask you to **activate** the form. Click the link in that e-mail. Requests sent before activation are not delivered.
+4. FormSubmit's activation e-mail also gives you a private address made of random letters. You can use it in step 2 instead of your e-mail, so your address doesn't appear in the website's code.
+
+Until this is set up, the form opens the visitor's own e-mail app (if **Contact e-mail** is filled in) and asks them to attach their documents themselves.
+
+If you later use a paid Formspree plan with file uploads, put that form's address here instead. If you change the service, keep **Maximum total size of the files** (in **Translation & notarization**) within what it accepts.
+
+## 6. When do changes appear?
 
 About **one minute** after you press **Save & publish**. Refresh the website to see them.
 If you still see the old version after 2–3 minutes, do a hard refresh (Ctrl + Shift + R on Windows, Cmd + Shift + R on Mac).
 
-## 6. Made a mistake?
+## 7. Made a mistake?
 
 Nothing is ever lost. Every save is recorded in the **change history**:
 https://github.com/obanex/borderless-foundation/commits/main
 
 To undo a change, either edit the item again in the admin, or ask the owner to restore an earlier version from the history.
 
-## 7. Common messages
+## 8. Common messages
 
 | Message | What to do |
 |---|---|

@@ -75,7 +75,7 @@
             { key: "featured", type: "checkbox", label: "Featured on the home page" },
             { key: "org", type: "bi", label: "Organisation" },
             { key: "funding", type: "bi", label: "Funding (short, e.g. “Fully funded”)" },
-            { key: "link", type: "url", label: "Link to apply", hint: "If empty, the button goes to your Linktree." },
+            { key: "link", type: "url", label: "Link to apply", hint: "If empty, the button goes to the Contact page." },
             { key: "summary", type: "bitext", label: "Summary" },
             { key: "eligibility", type: "bilist", label: "Eligibility criteria" },
             { key: "benefits", type: "bilist", label: "What it covers" }
@@ -197,6 +197,28 @@
             { key: "ambassadorBenefits", type: "bilist", label: "Benefits" },
             { key: "ambassadorPath", type: "bilist", label: "Career path (one step per line)" }
           ]
+        },
+        {
+          id: "translation", kind: "single", file: "content/translation.json",
+          title: "Translation & notarization",
+          help: "The translation & notarization page and its request form. Requests and uploaded documents are sent to the “Translation form service” in Settings & links.",
+          fields: [
+            { key: "services", type: "group", label: "Services offered", item: "service", fields: [
+              { key: "name", type: "bi", label: "Name", req: true },
+              { key: "id", type: "text", label: "Short name (optional)", hint: "Letters and dashes, e.g. certified. Used in links that pre-select this service in the form." },
+              { key: "icon", type: "select", label: "Icon", options: ICONS },
+              { key: "text", type: "bitext", label: "Description" },
+              { key: "price", type: "bi", label: "Price line (e.g. “Quote based on the number of pages”)" }
+            ] },
+            { key: "documents", type: "bilist", label: "Documents we translate", hint: "One per line. Visitors can tick these in the form." },
+            { key: "languages", type: "bilist", label: "Languages", hint: "One per line, in the same order in English and French. Visitors choose from these in the form." },
+            { key: "faq", type: "group", label: "Frequently asked questions", item: "question", fields: [
+              { key: "q", type: "bi", label: "Question" },
+              { key: "a", type: "bitext", label: "Answer" }
+            ] },
+            { key: "maxFiles", type: "number", label: "Maximum number of files per request", hint: "Keep it within what your form service accepts." },
+            { key: "maxTotalMB", type: "number", label: "Maximum total size of the files (MB)", hint: "Keep it within what your form service accepts (for example 10 MB for FormSubmit)." }
+          ]
         }
       ]
     },
@@ -211,11 +233,9 @@
         {
           id: "settings", kind: "single", file: "content/settings.json",
           title: "Settings & links",
-          help: "Links used across the site. Empty links fall back to the Linktree.",
+          help: "Links used across the site. Empty links lead to the Contact page, and empty social media links are hidden.",
           fields: [
             { key: "defaultLang", type: "select", label: "Language for first-time visitors", options: [["en", "English"], ["fr", "Français"]] },
-            { key: "linktree", type: "url", label: "Linktree" },
-            { key: "padlet", type: "url", label: "Padlet" },
             { key: "whatsappCommunity", type: "url", label: "WhatsApp community link" },
             { key: "whatsappChannel", type: "url", label: "WhatsApp channel link" },
             { key: "linkedin", type: "url", label: "LinkedIn" },
@@ -223,7 +243,8 @@
             { key: "instagram", type: "url", label: "Instagram" },
             { key: "youtube", type: "url", label: "YouTube" },
             { key: "email", type: "text", label: "Contact e-mail", hint: "Shown on the Contact page. Forms open the visitor's e-mail app addressed to it." },
-            { key: "formEndpoint", type: "url", label: "Form service address (optional)", hint: "From a service like Formspree. When set, forms send messages there instead of opening an e-mail." }
+            { key: "formEndpoint", type: "url", label: "Form service address (optional)", hint: "From a service like Formspree. When set, forms send messages there instead of opening an e-mail." },
+            { key: "translationEndpoint", type: "url", label: "Translation form service (accepts files)", hint: "Where translation requests and their documents are sent. It must accept file uploads, e.g. https://formsubmit.co/your@email.com (free) or a paid Formspree form. If empty, the form service above is used, or the visitor's e-mail app opens and they attach the files themselves." }
           ]
         }
       ]
@@ -239,6 +260,6 @@
     free: "“Free” message", dir: "Scholarship guides – list", coverage: "Funding labels", dest: "Destinations",
     guide: "Scholarship guide pages", calls: "Open calls page", tk: "Application toolkit", lau: "Laureates",
     ins: "Insights", search: "Search", growth: "Personal growth", svc: "Services & Coaching", eco: "Ecosystem",
-    ads: "Advertise & partnerships", contact: "Contact", form: "Forms", footer: "Footer"
+    ads: "Advertise & partnerships", tr: "Translation & notarization", contact: "Contact", form: "Forms", footer: "Footer"
   };
 })();

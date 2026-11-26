@@ -15,9 +15,10 @@
     foundation: "content/foundation.json",
     scholarships: "content/scholarships.json",
     toolkit: "content/toolkit.json",
-    laureates: "content/laureates.json"
+    laureates: "content/laureates.json",
+    translation: "content/translation.json"
   };
-  const SCRIPTS = ["assets/app.js", "assets/opportunities.js"];
+  const SCRIPTS = ["assets/app.js", "assets/opportunities.js", "assets/translation.js"];
 
   // "no-cache" still uses the browser cache but checks for a newer version first,
   // so edits made in the admin show up as soon as the site has redeployed.
@@ -52,6 +53,7 @@
     window.DATA_SCHOLARSHIPS = c.scholarships;
     window.DATA_TOOLKIT = c.toolkit;
     window.DATA_LAUREATES = c.laureates;
+    window.DATA_TRANSLATION = c.translation;
 
     for (const src of SCRIPTS) await loadScript(src);
     window.BF.boot();

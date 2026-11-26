@@ -109,7 +109,7 @@
 
   function channelBand() {
     return '<div class="cta-band"><div><div class="eyebrow">' + t("hub.channel.eyebrow") + "</div><h2>" + t("hub.channel.title") + "</h2><p>" + t("hub.channel.text") + "</p></div>" +
-      '<div class="cta-actions"><a class="btn btn--gold" href="' + esc(link("whatsappChannel")) + '" target="_blank" rel="noopener">' + icon("chat") + t("hub.channel.cta") + "</a></div></div>";
+      '<div class="cta-actions"><a class="btn btn--gold" href="' + esc(link("whatsappChannel")) + '"' + BF.ext(link("whatsappChannel")) + ">" + icon("chat") + t("hub.channel.cta") + "</a></div></div>";
   }
 
   function freeBlock() {
@@ -502,7 +502,7 @@
       fact("pin", t("opp.fact.region"), t("region." + o.region)) +
       fact("layers", t("opp.fact.level"), o.levels.map((l) => t("level." + l)).join(", ")) +
       "</ul>" +
-      '<a class="btn btn--gold btn--block" style="margin-top:22px" href="' + esc(o.link || window.CONFIG.linktree) + '" target="_blank" rel="noopener"' + (closed ? ' aria-disabled="true"' : "") + ">" +
+      '<a class="btn btn--gold btn--block" style="margin-top:22px" href="' + esc(o.link || "#/contact") + '"' + BF.ext(o.link) + (closed ? ' aria-disabled="true"' : "") + ">" +
       t("opp.apply") + icon("external") + "</a>" +
       '<p class="form-note center" style="margin-top:10px">' + t("opp.apply.note") + "</p></div>" +
       '<div class="card"><span class="icon-bubble icon-bubble--gold" style="margin-bottom:14px">' + icon("compass") + "</span>" +

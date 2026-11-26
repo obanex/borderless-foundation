@@ -1,0 +1,95 @@
+{
+  "services": [
+    {
+      "id": "translation",
+      "icon": "globe",
+      "name": { "en": "Translation", "fr": "Traduction" },
+      "text": {
+        "en": "A faithful, carefully formatted translation of your document, for reading, preparing an application or personal use.",
+        "fr": "Une traduction fidèle et soigneusement mise en page de votre document, pour la lecture, la préparation d'un dossier ou un usage personnel."
+      },
+      "price": { "en": "Quote based on the number of pages", "fr": "Devis selon le nombre de pages" }
+    },
+    {
+      "id": "certified",
+      "icon": "award",
+      "name": { "en": "Certified translation", "fr": "Traduction certifiée" },
+      "text": {
+        "en": "A translation delivered with a signed statement of accuracy, as many universities, employers and embassies ask for.",
+        "fr": "Une traduction accompagnée d'une attestation d'exactitude signée, comme le demandent de nombreuses universités, employeurs et ambassades."
+      },
+      "price": { "en": "Quote based on the number of pages", "fr": "Devis selon le nombre de pages" }
+    },
+    {
+      "id": "notarized",
+      "icon": "pen",
+      "name": { "en": "Translation + notarization", "fr": "Traduction + notarisation" },
+      "text": {
+        "en": "Your certified translation, notarized when the institution or country you are applying to requires it. We tell you exactly what is needed.",
+        "fr": "Votre traduction certifiée, notarisée lorsque l'institution ou le pays visé l'exige. Nous vous indiquons précisément ce qui est nécessaire."
+      },
+      "price": { "en": "Quote including notary fees", "fr": "Devis incluant les frais de notaire" }
+    }
+  ],
+  "documents": {
+    "en": [
+      "Diplomas and transcripts",
+      "Birth, marriage and civil status certificates",
+      "Passports and ID cards",
+      "Bank statements and sponsorship letters",
+      "Recommendation letters and CVs",
+      "Police records and other official documents"
+    ],
+    "fr": [
+      "Diplômes et relevés de notes",
+      "Actes de naissance, de mariage et d'état civil",
+      "Passeports et cartes d'identité",
+      "Relevés bancaires et lettres de prise en charge",
+      "Lettres de recommandation et CV",
+      "Casiers judiciaires et autres documents officiels"
+    ]
+  },
+  "languages": {
+    "en": ["English", "French", "Haitian Creole", "Spanish", "Portuguese"],
+    "fr": ["Anglais", "Français", "Créole haïtien", "Espagnol", "Portugais"]
+  },
+  "faq": [
+    {
+      "q": { "en": "How much does it cost?", "fr": "Combien ça coûte ?" },
+      "a": {
+        "en": "The price depends on the number of pages, the languages and whether you need certification or notarization. We send you a quote before any work starts, and nothing is due until you accept it.",
+        "fr": "Le prix dépend du nombre de pages, des langues et du besoin de certification ou de notarisation. Nous vous envoyons un devis avant tout travail, et rien n'est dû tant que vous ne l'avez pas accepté."
+      }
+    },
+    {
+      "q": { "en": "How long does it take?", "fr": "Quels sont les délais ?" },
+      "a": {
+        "en": "Most translations are ready within a few working days. Notarization can add time. Tell us your deadline in the form and we will confirm whether we can meet it.",
+        "fr": "La plupart des traductions sont prêtes en quelques jours ouvrables. La notarisation peut demander un délai supplémentaire. Indiquez votre date limite dans le formulaire et nous vous confirmerons si nous pouvons la respecter."
+      }
+    },
+    {
+      "q": { "en": "Will my translation be accepted?", "fr": "Ma traduction sera-t-elle acceptée ?" },
+      "a": {
+        "en": "Requirements differ from one country and institution to another. Tell us where you will submit the document and we will check what they ask for before we start.",
+        "fr": "Les exigences varient selon les pays et les institutions. Dites-nous où vous déposerez le document et nous vérifierons ce qui est demandé avant de commencer."
+      }
+    },
+    {
+      "q": { "en": "Are my documents kept private?", "fr": "Mes documents restent-ils confidentiels ?" },
+      "a": {
+        "en": "Yes. Your documents are used only to prepare your quote and your translation, and are never shared for any other purpose.",
+        "fr": "Oui. Vos documents servent uniquement à préparer votre devis et votre traduction, et ne sont jamais partagés à d'autres fins."
+      }
+    },
+    {
+      "q": { "en": "What if my scan isn't very clear?", "fr": "Et si mon scan n'est pas très net ?" },
+      "a": {
+        "en": "Send what you have. A clear phone photo taken in good light usually works. If something can't be read, we will ask you for a better copy.",
+        "fr": "Envoyez ce que vous avez. Une photo nette prise au téléphone avec une bonne lumière suffit généralement. Si un passage est illisible, nous vous demanderons une meilleure copie."
+      }
+    }
+  ],
+  "maxFiles": 5,
+  "maxTotalMB": 10
+}
